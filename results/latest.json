@@ -15,10 +15,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/23907790",
     "published_ts": 1780907545000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Kamrem vattenpump bytt nya bromsskivor servat",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -77,20 +79,6 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -109,10 +97,13 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24811675",
     "published_ts": 1784035048000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "✔ 30 500 mil\n✔ Besiktigad till 2027-05-31\n✔ Skatt betald till januari\n✔ Kamrem bytt vid 18 500 mil\nVälvårdad och rymlig Volvo V60 D3 Momentum med den driftsäkra 163 hk dieselmotorn och manuell växellåda.\nBilen går mycket bra i både motor och växellåda och är trevlig att köra. Den är i fint skick för sin ålder.\nDjur och rökfri\nDet finns lacksläpp på höger främre passagerardörr.\nDet finns även lite lacksläpp på bagageluckan, upptill vid bakrutan.\nMvh Melissa",
+    "flags": [
+      "kamrem",
+      "växellåda"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -168,20 +159,6 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -200,10 +177,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24462440",
     "published_ts": 1782904749000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 D3 163hk Momentum 2011\nBesiktad tom 2027-04-31\nNyligen skattad\n2nycklar\nSommar och vinterdäck\nNybytt kamrem och vattenpump\nNya stötdämpare\n18tums cactus fälgar med bra däck\nAc kyler svagt\nPris: 45000:-",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -259,20 +238,6 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -291,10 +256,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/23976672",
     "published_ts": 1781115495000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Hej,\nSäljer nu min Volvo V60 D3 från 2011 då jag inte längre är i behov av en bil.\nDet som gjorts på bilen under tiden jag har haft den:\n-Bytt Spindelled på båda sidor fram\n-Bytt bytt hjullager fram\n-Bytt Multirem och AC rem\nBilen skötts väl under min ägo\nBilen säljs i befintligt skick, viss rostskada finns",
+    "flags": [
+      "rost"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -351,20 +318,6 @@
       "Trötthetsvarnare",
       "Uppvärmda säten, fram",
       "Åretruntdäck på fälg"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -383,9 +336,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24665641",
     "published_ts": 1783530492000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Hemleverans erbjuds i hela Europa (Fråga oss vad det kostar att få bilen hemlevererad)\nFör att säkerställa att bilen du är intresserad av finns tillgänglig, rekommenderar vi att du ringer oss på 070-464 28 22 innan ditt besök.\nVälkommen till vår bilhall på Gullivervägen 11 i Kallhäll ! Här hittar du ett brett utbud av bilar och en personlig service utöver det vanliga.\nKontakta oss idag – vi ser fram emot att hjälpa dig!",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -463,20 +416,6 @@
       "Tonade rutor",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -495,9 +434,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/22024646",
     "published_ts": 1782906677000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "-",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -567,20 +506,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -599,10 +524,14 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24347809",
     "published_ts": 1782574666000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Säljer nu min Volvo V60 från 2013\ndå jag köpt en nyare bil.\nGår riktigt fint i motor och växellåda.\n2.0 disel , 6-växlad manuel låda.\nTvå nycklar\nHar gått cirka 33xxx.\nBesiktad utan anmärkning (2026.04.19)\nFöljande är gjort:\n- service i  juni\n- nya sommar däck\n-nya vinter däck som har köpt i november 2025,\nSkatten är betald\nKamrem och vattenpump bytt\n23-11-24/\n0.45 L/milen bland körning\nTel. 0702694109\nMvh\nMv",
+    "flags": [
+      "kamrem",
+      "växellåda",
+      "anmärkning"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -664,20 +593,6 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -696,10 +611,13 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24316701",
     "published_ts": 1782389051000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nu är det dags att sälja denna bil då jag ska köpa något mindre.\nDet är en Volvo D2 i Momentum-utförande som har varit väl omhändertagen och regelbundet servad under åren. Allt på bilen fungerar som det ska.\nKamremmen är bytt 2023-02-10 vid 28 115 mil, vilket finns dokumenterat med stämpel. Bilen är även\nvälservad enligt bok, ( Alla stämplar finns )\nBilen är utrustad med Bluetooth, dragkrok samt extraljus för bättre sikt vid mörkerkörning.\nBilen säljs nyservad och är senast godkänd vid besiktning 2026-06-04.\nDet finns två mindre rostfläckar på en dörrhandtaget samt viss lite rost på hjulhuset. Med tanke på bilens ålder och miltal är detta fullt normalt och påverkar inte bilens funktion.\nEn pålitlig, bränslesnål och praktisk bil som är redo för många fler mil.\n0735442642\n0735442642",
+    "flags": [
+      "kamrem",
+      "rost"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -758,20 +676,6 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -790,9 +694,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24594591",
     "published_ts": 1783334339000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "-",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -846,20 +750,6 @@
       "Stöldlarm",
       "Svensksåld",
       "Sätesvärme (fram)"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -878,10 +768,13 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24929083",
     "published_ts": 1784459542000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nyinkommen Volvo V60 från 2012. Utrustad med bland annat P-Sensorer, Farthållare samt Bluetooth.\nSenast servad vid 23.020 mil 2026-01-05. Kamrem bytt vid 22.226 mil 2023-09-18. Besiktigad utan anmärkningar tills 2027-05-31.\nRymlig samt ekonomisk bil som passar perfekt både till pendling samt körningar med familjen. Billig i drift med en förbrukning på endast 0,41L/Mil samt en årlig skatt på endast 1520kr. Servad på Volvo auktoriserade verkstäder. Service historik:\n2026-01-06: 23.020 mil\n2023-09-18: 22.260 mil\n2021-04-03: 21.730 mil\n2019-06-13: 20.500 mil\n2018-08-07: 18.350 mil\n2017-08-29: 15.985 mil\n2016-08-22: 13.738 mil\n2015-05-22: 11.520 mil\n2014-08-20: 9329 mil\n2014-01-17: 6540 mil\n2012-06-27: 2208 mil\nVi erbjuder finansiering via Santander samt MoneyGO med möjlighet till räntefri finansiering. Vi tar gärna din bil i inbyte. Just nu använder vi oss utav tidsbokningar hör gärna av er vid frågor.",
+    "flags": [
+      "kamrem",
+      "anmärkning"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -952,20 +845,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -984,10 +863,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24541278",
     "published_ts": 1783165483000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 D3 Geartronic från 2013 med automatisk växellåda och framhjulsdrift. Bilen har rullat 30 182 mil och drivs av en dieselmotor på 136 hk. Den är utrustad med fast dragkrok och har en bagagevolym på 430 liter. Senaste besiktning utfördes 2026-03-04 och nästa besiktning är senast 2027-05-31.",
+    "flags": [
+      "växellåda"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -1045,20 +926,6 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1077,9 +944,9 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/21917541",
     "published_ts": 1782733335000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Fin bil som vi ägt sedan 2016. Besiktigas senast 31 december 2026. Säljes för att vi är i behov av större bil.  Sommardäcken är nya.",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -1146,20 +1013,6 @@
       "Uppvärmda säten, fram",
       "Xenonljus",
       "Dragkrok, avtagbar/svängbar"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1178,9 +1031,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24463840",
     "published_ts": 1782907107000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Övrig information om bilen:\nÅrsskatt: 1328 kr\nVid blandad körning är förbrukning endast 0.67 l/mil\nBesiktigad till och med 2027-06-30\nVi på TR BIL hjälper dig med din bilaffär på bästa sätt!\nHos oss kan du köpa, byta eller sälja din nuvarande bil.\nAlla våra bilar är i bra skick, genomgångna av våra tekniker och finns för omgående leverans.\n*Alla bilar finns för omgående leverans\n*Vi har fulla finansieringsmöjligheter\n*Tilläggsgaranti upp till 24 månader\nÖppettider:\nMåndag - Fredag 08.00 - 17.00\nLördag-Söndag: Enligt överenskommelse\nAdress: Värmdövägen 104, 131 60 Nacka\nE-post: info @ trbil.se\nTel: 08-88 49 42",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -1251,20 +1104,6 @@
       "Uppvärmda spolare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1283,10 +1122,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24540424",
     "published_ts": 1783163671000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nyinkommen Volvo V60 R-Design i mycket fint skick. Utrustad med bland annat Taklucka, Avtagbar dragkrok, Bluetooth, skinnstolar, farthållare samt P-Sensorer fram/Bak.\nNybesiktigad tills 2027-08-31. Nyservad 2026-06-08 vid 25.300 mil. Kamrem bytt!\nSäljes med 2st nycklar samt fullt dokumenterad servicehistorik. Mycket billig i drift med en förbrukning på 0,42L/Mil samt en årlig skatt på endast 1520kr/År.\nService historik:\n2026-06-08: 25.300 mil\n2026-01-23: 23.600 mil\n2025-10-08: 22.150 mil\n2024-06-19: 20.100 mil\n2023-04-25: 17.200 mil\n2022-02-25: 15.000 mil\n2021-02-09: 14.200 mil\n2020-02-24: 12.800 mil\n2019-02-28: 10.800 mil\n2018-02-01: 8440 mil\n2017-02-02: 6620 mil\n2016-02-16: 5800 mil\n2015-02-23: 5220 mil\n2014-02-28: 3572 mil\n2013-02-21: 1760 mil\nErbjuder finansiering via MoneyGO samt Santander med möjlighet till räntefri finansiering. Vi tar gärna din bil i inbyte. Just nu använder vi oss utav tidsbokningar. Hör gärna av er vid frågor.",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -1355,20 +1196,6 @@
       "Tonade rutor",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1387,10 +1214,14 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24146515",
     "published_ts": 1781703705000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "PASSA PÅ ATT FÖRVÄRVA EN VÄL SERVAD HERRGÅRDSVAGN, VOLVO V60 D2 MOMENTUM MED 115 PIGGA HÄSTKRAFTER.\nEn komfortabel och rymlig bil som erbjuder hög säkerhet, låg driftkostnad och en mycket behaglig körupplevelse.\nEn trygg, bekväm och elegant Volvo för dig som söker kvalitet och körglädje.\nEndast 2 ägare, väl servad bil med servicehistorik, tidigare enbart servad hos Volvo auktoriserad verkstad.\nBillig att äga både i drift & försäkring, bränslesnål bil, låg årsskatt endast 1520kr/år.\nBillig i både drift & försäkring.\nGår bra i motor & växellådan.\n- Besiktad fram till 2027-02-28\n- Ny Servad 2026-06-18 vid 22654 Mil\n- Kamremssats bytt 2017-05-22 vid 14364 Mil\n- Momentum\n- City Safety\n- Svensksåld\n- Bluetooth\n- Isofix\n- Kurvljus\n- 2 Ägare\n- 2st Nycklar\n- Avtagbar Dragkrok\n- Parkeringssensorer bak\n- Avstäningsbar Airbag Passagerarsida\n- Årsskatt 1520kr/år\n- Går att finansiera från 1676kr\nVARMT VÄLKOMNA TILL OSS PÅ CAR TRADE!\nHantverkarvägen 39C, Handen.\nVid köp av fordon tillkommer en registreringsavgift på 995 kr.\nVi erbjuder finansiering via LF Finans, My Money & Money Go.\nVi tar emot din betalning via Swish eller Banköverföring.\nRing gärna innan ni kommer för att säkerställa att någon finns på plats. Call before you come.",
+    "flags": [
+      "kamrem",
+      "växellåda",
+      "ägare"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -1447,20 +1278,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1479,10 +1296,14 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/23906890",
     "published_ts": 1780904892000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nyinkommen Volvo V60 i mycket fint skick. Samma ägare sedan 2018. Välsvarvad hos Volvo. Senast servad 2026-06-05 vid 20749 mil. Besiktigad tills 2027-06-30 utan anmärkningar. Kamrem bytt!\nUtrustad med bland annat Dragkrok, Bluetooth samt P-Sensorer. Säljes med 2st nycklar samt fullt dokumenterad servicehistorik. Billig i drift med en förbrukning på 0,5L/Mil samt en skatt på endast 1328kr/År.\nErbjuder finansiering via Santander samt MoneyGO. Just nu använder vi oss utav tidsbokningar. Hör gärna av er vid frågor.",
+    "flags": [
+      "kamrem",
+      "ägare",
+      "anmärkning"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -1544,20 +1365,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1576,10 +1383,13 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/15089677",
     "published_ts": 1780123920000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Besiktigad 2025-04-30\nKamremsbytt(se bild)\n-Utnyttja Smartbilvals HEMLEVERANS från 995kr med 2 veckors ångerrätt.\n-Skydda din bil med vårt Trygghetspaket. Köp till 12-36 månaders GARANTI som gäller i hela Europa.\n-1 Månad gratis HELFÖRSÄKRING via Länsförsäkringar.\n-Över 175 bilar i lager för direktleverans.\n-Adress: Tillverkarvägen 4 Täby/Arninge. Tel:08-544900 00.\nDärför skall du välja Smartbilval:\n*Stark Huvudägare borgar för en trygg affär även efter bilköpet.\n*Smartbilval drivs av ett svenskt team med över 30 års brancherfarenhet.\n*Vi är proffs på distansköp och visar bilen via video eller facetimesamtal innan köp för din trygghet.\n*All cars availible for EXPORT.\n*OBS Kolla er skräppost om ni inte fått svar av oss inom 24 timmar eller ännu bättre ring oss för ett trevligt samtal.\n**DET ÄR SMART ATT VÄLJA SMARTBILVAL**",
+    "flags": [
+      "kamrem",
+      "ägare"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -1646,20 +1456,6 @@
       "Trötthetsvarnare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1678,9 +1474,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24314067",
     "published_ts": 1784018530000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "* VÄNLIGEN KONTROLLERA ÄVEN ER SKRÄPPOST VID MEJLKONTAKT *\nVi svarar på mejl och samtal dagligen kl. 08:00–22:00.\nVolvo V60 D2 Manuell, 115hk, 2013\n• 79 900KR ELLER FRÅN 1220KR PER MÅNAD!\n• 6 månaders helförsäkring för endast 1895kr\n• Besiktigad till: 2027-07-31\nUtrustning:\n• Navigation\n• Parkeringssensor\n• Dieselvärmare\n• Blåtands handsfree\n• Elhissar fram och bak\n• Elspeglar\n• Farthållare\n• Komplett ifylld servicebok\n• Taklucka\n• Svensksåld\nVi erbjuder:\n* Finansiering med flexibla betalningslösningar\n* Hemleverans i hela Sverige\n* Garanti upp till 36 månader\n* 30 dagars helförsäkring via Länsförsäkringar ingår\n* Möjlighet till 0 kr i kontantinsats\n* Räntefritt lån upp till 100 000 kr\n* Inbyte av din nuvarande bil – vi löser eventuell restskuld!\nVi erbjuder förmånliga finansieringslösningar via Länsförsäkringar Finans och MyMoney.\nVi hjälper dig hitta rätt upplägg – så att du kan köra iväg direkt.\nAll cars are available for export",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -1752,20 +1548,6 @@
       "Taklucka",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1784,10 +1566,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24874690",
     "published_ts": 1784278534000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 D2 Powershift från 2014 med automatisk växellåda och framhjulsdrift. Bilen har gått 23 000 mil och drivs av en dieselmotor på 115 hk. Bränsleförbrukningen ligger på 4,2 l/100km. Bagageutrymmet är 430 liter. Besiktigad senast 2026-06-27 och nästa besiktning är senast 2027-08-31. Observera att det finns repor/bucklor på vänster sida av parkeringsskada.\nMer bilder går att få om så efterfrågas.\nNya vinterdäck ca 2 år gamla\nNya sommardäck i fram nu i våras.\nGår superfint och jag är så nöjd med den.\nSäljes enbart pga jag blivit av med jobbet.",
+    "flags": [
+      "växellåda"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -1842,20 +1626,6 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -1874,10 +1644,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24685722",
     "published_ts": 1784304548000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "En välvårdad Volvo V60 D3 Geartronic från 2011 med 163 hk dieselmotor och automatisk växellåda. Bilen har en fullständig servicehistorik och nyligen utförda reparationer inkluderar byte av luftmassemätare, turboslang, laddluftslang, bromsok och bromsskivor bak. Dragkrok ingår. Den är besiktigad fram till 2027-05-31 och är en välvårdad, driftsäker och trevlig bil.\nInga byten, inga skambud.",
+    "flags": [
+      "växellåda"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -1935,130 +1707,6 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
-    ]
-  },
-  {
-    "ad_id": "24301114",
-    "heading": "Volvo V60",
-    "model": "V60",
-    "model_specification": "D2 Powershift Summum TAKL DRAG SKINN NYKAMREM NYBES",
-    "year": 2013,
-    "price": 78900,
-    "mileage": 25700,
-    "mileage_unit": "SCANDINAVIAN_MILE",
-    "transmission": "Automatisk",
-    "fuel": "Diesel",
-    "location": "Järfälla",
-    "regno": "OXZ220",
-    "seller": "Företag",
-    "url": "https://www.blocket.se/mobility/item/24301114",
-    "published_ts": 1782320295000,
-    "is_new": true,
-    "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
-    "specifications": {
-      "Märke": "Volvo",
-      "Modell": "V60",
-      "Modellår": "2013",
-      "Biltyp": "Kombi",
-      "Drivmedel": "Diesel",
-      "Effekt": "116 Hk",
-      "Motorvolym": "1,6 L",
-      "Miltal": "25 700 mil",
-      "Växellåda": "Automatisk",
-      "Max trailervikt": "1 300 kg",
-      "Drivhjul": "Framhjulsdrift",
-      "Säten": "5",
-      "Färg": "Röd",
-      "Färgbeskrivning": "Röd",
-      "Bilens plats": "Sverige",
-      "Avgiftsklass": "Personbil",
-      "Registreringsnummer": "OXZ220",
-      "Chassinummer": "yv1fw84abd1120139",
-      "Försäljningsform": "Begagnad bil till salu"
-    },
-    "equipment": [
-      "NYBESIKTAD",
-      "NYSERVAD",
-      "NY KAMREM",
-      "HEMLEVERANS",
-      "ABS-bromsar",
-      "ACC",
-      "ACC 2 klimatzoner",
-      "Airbag förare",
-      "Airbag passagerare fram",
-      "Antisladd",
-      "Autobroms",
-      "AUX-ingång",
-      "Avbländande innerbackspegel",
-      "Backstartshjälp",
-      "Barnlås",
-      "Bi-xenon-strålkastare",
-      "Broms-assistans",
-      "Centrallås (fjärrstyrt)",
-      "Delbart baksäte",
-      "Dragkrok, fast",
-      "Elhissar (fram och bak)",
-      "Elinfällbara sidospeglar",
-      "Elstol förare",
-      "Eluppvärmda sidospeglar",
-      "Euro NCAP 5",
-      "Fartbegränsare",
-      "Farthållare",
-      "Fällbara baksäten",
-      "Färddator",
-      "GPS",
-      "ISOFIX-fästen bak",
-      "Keyless",
-      "Helklädda lädersäten",
-      "Läslampa",
-      "Lättmetallfälgar",
-      "Motorvärmare",
-      "Multifunktionsratt",
-      "Rails",
-      "Regnsensor",
-      "Servostyrning",
-      "Sidoairbags",
-      "Sidokrockgardiner",
-      "Sminkspegel",
-      "Start-/stoppfunktion",
-      "Startspärr",
-      "Stöldlarm",
-      "Svensksåld",
-      "Sätesvärme (bak)",
-      "Sätesvärme (fram)",
-      "Taklucka",
-      "USB-uttag",
-      "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2077,10 +1725,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24778102",
     "published_ts": 1783936767000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Kamrem och Vattenpump är byte, lättmetallfälgar,  Årsskatt: 1520 kronor, Senast godkända besiktning: 2026-07-10, Servicehistorik, Vi kan lämna garanti upp till 12 månader, Reservation för felskrivnin, Ring före visning eller vid frågor 08-12144444. VÄLKOMMEN PÅ GRENVÄGEN 6 152 42 SÖDERTÄLJE..",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2164,20 +1814,6 @@
       "Motorvärmare",
       "Parkeringssensorer",
       "Parkeringssensor bak"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2196,9 +1832,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24542384",
     "published_ts": 1783167236000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "***HUY264***Vi tar emot alla inbyten och erbjuder hemleverans i hela Sverige!* Nu har vi fått in denna fina Volvo V60 D6 Plug-in Hybrid AWD Geartronic 283hk 2013. Utrustad med bl.a: Summum, Taklucka, Dragkrok, mm. Varmt välkommen in för en visning av detta trevliga exemplar innan det är försent.\nÖvrig information om bilen:\nÅrsskatt på endast 1103kr\nBlandad förbrukning 1,8l/100km med hybridfunktion\nDenna bil kan köpas med 12-36 mån garanti\nReservera bilen direkt online\nVi erbjuder gratis helförsäkring via Länsförsäkringar\nunder 30 dagar! Välkommen till We Cars och vår anläggning på Engelbrekts Väg 17 i Sollentuna. Ni når oss på telefon samt e-mail: Info @ wecars.se!\nEftersom vi har väldigt korta lager tider på våra bilar rekommenderar vi våra kunder att ringa oss på 08-303387 för att kontrollera att fordonet finns kvar!\nVi ordnar en finansiering som passar just dina behov, erbjuder marknadens billigaste helförsäkring och tar gärna din gamla bil i inbyte. Vid köp av fordon hos oss tillkommer en registreringsavgift på 595 kr.\nMånadskostnad från endast 800kr/mån\nTelefontider:\nMåndag - Fredag 10:00 - 20:00\nLördag - Söndag 10:00 - 16:00\nBesökstider i butik:\nMåndag - Fredag 11:00 - 18:00\nLördag 11:00 - 15:00\nSöndag Stängt",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -2262,20 +1898,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2294,10 +1916,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24419131",
     "published_ts": 1782749405000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nyinkommen Volvo V60 T3!\nBesiktas senast: 2027-07-31\nSenaste service: 18.250 mil\nNu har du chansen att förvärva en mycket väl omhändertagen Volvo V60 med både bra service och ägandehistorik. Denna bil erbjuder hög komfort samt säkerhet på vägen.\nBilen är utrustad med bland annat farthållare, sätesvärme fram och bak, bluetooth, eldriven förarstol och skinnstolar.\nServicehistorik:\n2021-01-31, 1.445 mil\n2013-01-11, 2.843 mil\n2014-01-21, 4.173 mil\n2015-01-13, 5.793 mil\n2015-08-13, 6.717 mil\n2016-08-19, 8.226 mil\n2017-08-10, 9.719 mil\n2018-08-10, 11.073 mil\n2019-05-17, 12.120 mil\n2020-05-11, 13,092 mil (ink kamremsbyte)\n2021-03-12, 13.992 mil\n2022-03-25, 14.375 mil\n2023-03-15, 15.431 mil\n2024-03-11, 16.171 mil\n2025-04-15, 17.252 mil\n2026-03-14, 18.250 mil\nNya sommardäck och nya bromsskivor samt bromsbelägg runt om hela bilen.\nSäljes med två nycklar\nErbjuder finansiering via Santander och MoneyGo!\nFör tillfället använder vi oss av tidsbokningar.\nRing eller maila för att boka en tid.\nVarmt välkommen in till oss!\nVi tar även din bil inbyte.",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2362,20 +1986,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2394,10 +2004,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24066142",
     "published_ts": 1781438975000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nu har du chansen att förvärva en mycket fin V60. Bilen är väl omhändertagen med utmärkt servicehistorik. Denna bil fungerar mycket bra som pendlarbil med dess låga förbrukning på enbart 4.5l/100km vid blandad körning.\nBilen är utrustad med bland annat skinnstolar, bluetooth, farthållare och sätesvärme.\nBilens servicehistorik:\n2026-06-13, 21285 mil\n2024-05-28, 19273 mil\n2023-04-05, 18166 mil ink. kamremsbyte\n2022-02-16, 16960 mil\n2021-03-11, 15898 mil\n2020-02-18, 14763 mil\n2019-01-07, 13791 mil\n2018-03-15, 12937 mil\n2017-02-21, 11656 mil\n2016-01-18, 10370 mil\n2015-03-15, 7771 mil\n2014-06-23, 5081 mil\n2013-09-27, 2537 mil\nSäljes med två nycklar\nErbjuder finansiering via Santander och MoneyGo!\nFör tillfället använder vid oss av tidsbokningar.\nRing eller maila för att boka en tid.\nVarmt välkommen in till oss!\nVi tar även din bil i inbyte.",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2461,20 +2073,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2493,10 +2091,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/14421534",
     "published_ts": 1780123920000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "-Utnyttja Smartbilvals HEMLEVERANS från 995kr med 2 veckors ångerrätt.\n-Skydda din bil med vårt Trygghetspaket. Köp till 12-36 månaders GARANTI som gäller i hela Europa.\n-1 Månad gratis HELFÖRSÄKRING via Länsförsäkringar.\n-Över 200 bilar i lager för direktleverans.\n-Adress: Tillverkarvägen 4 Täby/Arninge. Tel:08-544900 00.\nDärför skall du välja Smartbilval:\n*Stark Huvudägare borgar för en trygg affär även efter bilköpet.\n*Smartbilval drivs av ett svenskt team med över 30 års brancherfarenhet.\n*Vi är proffs på distansköp och visar bilen via video eller facetimesamtal innan köp för din trygghet.\n*All cars availible for EXPORT.\n*OBS Kolla er skräppost om ni inte fått svar av oss inom 24 timmar eller ännu bättre ring oss för ett trevligt samtal.\n**DET ÄR SMART ATT VÄLJA SMARTBILVAL**",
+    "flags": [
+      "ägare"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2560,20 +2160,6 @@
       "Vi byter in din bil",
       "Garanti 1-3 år (fråga säljaren)",
       "Hemleverans från 995kr"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2592,10 +2178,14 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24934255",
     "published_ts": 1784468612000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 Ocean Race D3 Geartronic 2012 – välservad med mycket nytt\nDags att sälja min Volvo V60 Ocean Race D3 från 2012 med den uppskattade\nGeartronic-automatlådan (ej PowerShift)\n.\nJag är bilens\nfjärde privata ägare\noch bilen har varit problemfri i min ägo. Motorn och växellådan fungerar som de ska och bilen har\nfullt stämplad servicebok\n, med många stämplar från Volvo.\nDet senaste året har en hel del slitdelar bytts, bland annat:\nNya\nBrembo bromsskivor och bromsbelägg runt om\n(ca 1 månad sedan).\nNy höger strålkastare.\nNya xenonlampor på båda sidor.\nNy inre och yttre styrled vänster fram.\nNytt krängningshämmarstag (K-stag).\nNya fjäderbenslager.\nNytt start/stopp-batteri och VOC-batteri (september 2025).\nServad i maj 2026 med ny motorolja, luftfilter, kupéfilter och bromsvätska.\nOBS!!! Fälgarna som bilen står på just nu ingår EJ. !!!OBS\nFälgarna som ingår är Original\n17\" Ocean Race Volvo-fälgar\n(med sommardäck monterade). Vinterdäck finns tyvärr inte.\nAC kyler riktigt bra\noch bilen säljs med\n2 nycklar\n.\nJag vill också vara ärlig med att det finns\nrostbubblor på vänster fram- och bakskärm\n. Utöver det är bilen i fint skick för sin ålder och går väldigt bra.\nHör gärna av dig om du har frågor eller vill komma och titta på bilen.",
+    "flags": [
+      "växellåda",
+      "rost",
+      "ägare"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2660,20 +2250,6 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2692,10 +2268,14 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/23798751",
     "published_ts": 1780563863000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nybesiktigad utan anmärkning\nService gjord Mars 2026\n2024:\nNya bromsskivor och belägg fram/bak\nNytt bromsok vänster fram\nBeg. AC-kompressor samt ny rem\n2025:\nNy laddtrycksgivare\nKända fel:\nVänster backspegel fälls ej in\nVärmeplåt bak är lös\nSmåmärken runt bil men inga stora skador\nBörjar komma lite rost i framskärmar\nBilen säljs då familjen blivit större och bilen börjar bli lite för liten.",
+    "flags": [
+      "rost",
+      "kompressor",
+      "anmärkning"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2753,21 +2333,61 @@
       "Uppvärmda säten, fram",
       "Xenonljus",
       "Bi-xenon-strålkastare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
+  },
+  {
+    "ad_id": "21426515",
+    "heading": "Volvo V60",
+    "model": "V60",
+    "model_specification": "D5 AWD Aut Summum Takl Skinn 18tum Värmare Blis Vhjul",
+    "year": 2011,
+    "price": 87000,
+    "mileage": 20500,
+    "mileage_unit": "SCANDINAVIAN_MILE",
+    "transmission": "Automatisk",
+    "fuel": "Diesel",
+    "location": "Åkersberga",
+    "regno": "LPX929",
+    "seller": "Privat",
+    "url": "https://www.blocket.se/mobility/item/21426515",
+    "published_ts": 1784719248000,
+    "is_new": false,
+    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
+    "description": "*Stabil trevlig Volvo V60 AWD med 5 cylindriga D5 motorn 205hk och automat.\n*2011 modell\n* Nyservad 2026-04 konstaterad torr och fin mellan motor och låda .\n* Nybesiktad 2026-02\n* 2025 Byttes båda hjullager fram- kompletta fjäderben med sachs stötdämpare- Skivor och klossar fram Brembo.\n* Tidigare välservad och Kamrem bytt 2021-04-06 se bild.\n* Snygga 18 tums sommarhjul och 17 tums vinterhjul friktions däck klarar flera säsonger till (båda uppsättningar original) fälg.\n* Utrustning som tex:\nHelskinn - Elstolar fram - Taklucka - BLIS - Laminerade rutor - Tonade - Elektrisk motorvärmard och bränslevärmare - värme i baksäte - Bluetooth - Farthållare - mkt mer.\nSkrap höger bakskärm finns och bulor vänster bakskärm. Lite synbar rost men bilen ger ett bra intryck .\nAC har tryck i systemet men ingen kyla kommer. skulle tro att det behövs en ny kompressor OBS detta.\nAnnars funkar allt. Bara att \"tuta och köra\"\nGår mycket bra.\nPriset 88.000:- . inget byte och pengar överförda via bank, inga kontanter.\nHjälper min son sälja sin bil och jag som far jobbar på bilia och kan bilar.",
+    "flags": [
+      "kamrem",
+      "rost",
+      "kompressor"
+    ],
+    "specifications": {
+      "Märke": "Volvo",
+      "Modell": "V60",
+      "Modellår": "2011",
+      "Biltyp": "Kombi",
+      "Drivmedel": "Diesel",
+      "Effekt": "205 Hk",
+      "Motorvolym": "2,4 L",
+      "Miltal": "20 500 mil",
+      "Bränsleförbrukning(NEDC)NEDC var den officiella testcykeln i Europa för att mäta bränsleförbrukning och utsläpp fram till september 2018": "6,9 L/100 km",
+      "Växellåda": "Automatisk",
+      "Max trailervikt": "750 kg",
+      "Drivhjul": "Fyrhjulsdrift",
+      "Vikt": "1 821 kg",
+      "Säten": "5",
+      "Antal dörrar": "5",
+      "Bagageutrymme": "430 L",
+      "Färg": "Svart",
+      "Färgbeskrivning": "Ovanlig brunbronze metallic, som ibland ser svart ut.",
+      "Färg interiör": "Brun skinnklädsel",
+      "Bilens plats": "Sverige",
+      "Senaste besiktningsdatum": "2026-02-17",
+      "Nästa besiktningsdatum": "2027-04-30",
+      "Avgiftsklass": "Personbil",
+      "Chassinummer": "YV1FW7056B1030481",
+      "Registreringsdatum": "2011-05-20",
+      "Antal ägare": "4",
+      "Försäljningsform": "Begagnad bil till salu"
+    }
   },
   {
     "ad_id": "24764324",
@@ -2785,10 +2405,14 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24764324",
     "published_ts": 1783877003000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Säljer nu denna pingla,  Volvo V60, Disel, 2013.  Bilen är i fint skick för sin ålder och miltal. Det finns normalt bruksslitage.\nFörarstolen har mindre slitage/skador i tyget, se bilder. Framdäcken är slitna.\nGått\nca 21900mil\n.\nFull servicehistorik\n.\nBesiktigad utan anmärkning\n. Inga synliga rostskador. I övrigt väldigt fräsch och har mycket kvar att ge!\nBilen är bekväm, bränslesnål, säker och rymlig med fyrhjulsdrift – passar lika bra för pendling som för familjen eller längre resor.\nJag köpte bilen för ca 2 veckor sedan som en tillfällig lösning medan jag letade efter en elbil, och nu har det blivit dags att sälja den vidare. Tidigare ägare hade bilen i\n9 år\noch har tagit väl hand om den.\nPriset kan diskuteras vid snabb affär men inga skambud snälla.",
+    "flags": [
+      "rost",
+      "ägare",
+      "anmärkning"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2845,21 +2469,57 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
+  },
+  {
+    "ad_id": "25018541",
+    "heading": "Volvo V60",
+    "model": "V60",
+    "model_specification": "D2 Automat Momentum VOC Värmare Rattvärme K-Bytt 3,45%",
+    "year": 2015,
+    "price": 89900,
+    "mileage": 23500,
+    "mileage_unit": "SCANDINAVIAN_MILE",
+    "transmission": "Automatisk",
+    "fuel": "Diesel",
+    "location": "Segeltorp",
+    "regno": "FLW636",
+    "seller": "Företag",
+    "url": "https://www.blocket.se/mobility/item/25018541",
+    "published_ts": 1784726023000,
+    "is_new": false,
+    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
+    "description": "KAMPANJRÄNTA 3.45%\nFinansiering från 760 kr / mån\nVi erbjuder hemleverans i hela landet\nExtra uppsättning däck går att köpa till Från 3995:-\n*** ALL CARS AVAILABLE FOR EXPORT***",
+    "flags": [],
+    "specifications": {
+      "Märke": "Volvo",
+      "Modell": "V60",
+      "Modellår": "2015",
+      "Biltyp": "Kombi",
+      "Drivmedel": "Diesel",
+      "Effekt": "116 Hk",
+      "Motorvolym": "1,56 L",
+      "CO₂-utsläpp": "110 g/km",
+      "Miltal": "23 500 mil",
+      "Bränsleförbrukning(NEDC)NEDC var den officiella testcykeln i Europa för att mäta bränsleförbrukning och utsläpp fram till september 2018": "4,2 L/100 km",
+      "Växellåda": "Automatisk",
+      "Max trailervikt": "1 370 kg",
+      "Drivhjul": "Framhjulsdrift",
+      "Vikt": "1 702 kg",
+      "Säten": "5",
+      "Antal dörrar": "5",
+      "Bagageutrymme": "430 L",
+      "Färg": "Blå",
+      "Bilens plats": "Sverige",
+      "Senaste besiktningsdatum": "2025-11-01",
+      "Nästa besiktningsdatum": "2027-01-31",
+      "Avgiftsklass": "Personbil",
+      "Registreringsnummer": "FLW636",
+      "Chassinummer": "yv1fw848bf1240593",
+      "Registreringsdatum": "2014-10-28",
+      "Antal ägare": "2",
+      "Försäljningsform": "Begagnad bil till salu"
+    }
   },
   {
     "ad_id": "23857485",
@@ -2877,10 +2537,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/23857485",
     "published_ts": 1780750851000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Kamrem och Vattenpump är byte vid (123463 KM), Sommar & Vinterhjul lättmetallfälgar,  Årsskatt: 1520 kronor, Senast godkända besiktning: 2025-06-03, Servicehistorik, Reservation för felskrivnin, Ring före visning eller vid frågor 08-12144444. VÄLKOMMEN PÅ GRENVÄGEN 6 152 42 SÖDERTÄLJE..",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -2967,20 +2629,6 @@
       "Parkeringssensor bak",
       "Parkeringssensor fram",
       "Tonade rutor"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -2999,9 +2647,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24784125",
     "published_ts": 1783947526000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Välkommen till Bilhuset Stockholm i Järfälla!\nSvensksåld Volvo V40 från 2011 i bra skick.\nBilen är utrustad med bland annat:\n- Backkamera\n- Dragkrok\n- Adaptiv Farthållare\n- Fartbegränsare\nÖvrig information\nNästa besiktning senast: 27-05-31",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -3075,20 +2723,6 @@
       "Trötthetsvarnare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3107,9 +2741,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/22184216",
     "published_ts": 1782816308000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Varmt välkomna att reservera/köpa er bil online, alternativt kontakta en av våra säljare för en visning av bilen på tel 08-400 211 27 eller via mail till info @ bilsmidigt.se\nOBS! Vid önskad visning på plats ber vi dig boka ditt besök i förväg, detta för att säkerställa att fordonet du är intresserad av finns på plats och att vi kan ge dig bästa möjliga service.\nVÄNLIGEN KOLLA ALLTID ER SKRÄPPOST (SPAM) VID MEJLKONTAKT MED OSS.\nDenna bil är redo för omgående leverans. För att säkra bilen innan någon annan gör det, reservera den direkt online på vår hemsida:\nhttps://bilsmidigt.se/kop-bil/volvo-v60-2013-kuj325\nNu har vi fått in denna riktigt fina Volvo V60 D4 R-Design med fyrhjulsdrift, dragkrok, hellädersäten, bränslevärmare och taklucka i lager.\nUtrustningen inkluderar bland annat: RDesign, AWD, Automat, Avtagbar Dragkrok, Släpvagnsstabilisering, Taklucka, Keyless Entry & Start, Läderinteriör, Sportsäten, Parkeringssensorer fram och bak, Parkeringsvärmare, 2 Klimatzoner, Navigation, Val av körprofil, Farthållare, City Safety 2, Intelligent Driver Information System, Bluetooth, USB-uttag, Läderratt, Multifunktionsratt, Xenon, LED-ljusramp, Regnsensor, Larm, ISOFIX, Rails, Tonade Rutor, High Performance Sound System, Helskinn, 4WD, m.m.\nFÖRBRUKNING: 0,64 L/MIL\nBESIKTAD TILL: 2026-10-31\nSENASTE SERVICE: 2025-10-06 / 23 735 MIL\nBilen står på dubbfria vinterdäck (friktion) med mönsterdjup 7/7/7/7 mm.\nOBS! Ingen hemleverans för denna bil, endast självhämtning på vårt logistikcenter i Upplands Väsby.\nVi erbjuder även ett bra inbytespris för din bil! Vi är en onlineaktör och har därmed väldigt korta ledtider på våra bilar. Passa på att reservera denna kombi via vår hemsida eller genom att ringa/maila till oss.\nAlltid hos Bilsmidigt:\n- 14 dagars fri heltäckande försäkring\n- Möjlighet till 0 kr i kontantinsats för företag\n- Vi köper även in eller byter in din nuvarande bil\n- Alla våra bilar inspekteras noga innan annonsering\n- Möjlighet till reservation av bil via betalning av deposition\n- Betalning via Swish, banköverföring eller 30-dagars faktura\n- Vi erbjuder marknadens bästa garantier i upp till 72 månader\n- Skräddarsydd finansiering via DNB, Santander eller Nordea Finans\nAll cars are available for export.\n*KUJ325*",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -3166,20 +2800,6 @@
       "4WD",
       "PDC",
       "Cruise Control"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3198,10 +2818,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24131654",
     "published_ts": 1781635951000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 D5 Manuell, 2011 med en stark dieselmotor på 225 hk (polestar optimerad). 3st extraljus monterade 2025. Bagageutrymme på 430 liter. Besiktigad till 2027-07-31, således precis genomgådd besiktning utan anmärkning.\nFräscha sommar och vinterdäck (dubb) på aluminiumfälg följer med i köp.",
+    "flags": [
+      "anmärkning"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -3260,20 +2882,6 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3292,9 +2900,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/21434629",
     "published_ts": 1783598689000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "-",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -3369,20 +2977,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3401,9 +2995,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/23550666",
     "published_ts": 1783587855000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "******OBS!  RING ALLTID INNAN BESÖK FÖR ATT SÄKERSTÄLLA ATT BILEN NI ÄR UTE EFTER FINNS KVAR ELLER PÅ PLATS!!!*****\nVarmt välkomna till oss på Haninge Bilcenter!\n- Denna bil kan levereras med 12-24 månaders garanti!\n- 2 veckor gratis försäkring genom Trygg hansa\n- Vi tar din bil i inbyte OAVSETT ÅLDER/MIL\n- VI ERBJUDER HEMLEVERANS I HELA LANDET!\nEftersom vi har väldigt korta lagertider på våra bilar rekommenderar vi våra kunder att ringa oss på 073 33 77 333 för att kontrollera att fordonet finns kvar! Vi ordnar en finansiering som passar just dina behov, erbjuder helförsäkring direkt från leverans och tar gärna din gamla bil i inbyte. Kontakta anläggningen för mer information.",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -3470,20 +3064,6 @@
       "Taklucka",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3502,9 +3082,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24515546",
     "published_ts": 1783079235000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "KAMPANJRÄNTA 3.45%\nFinansiering från 849 kr / mån\nVi erbjuder hemleverans i hela landet\nExtra uppsättning däck går att köpa till Från 3995:-\n*** ALL CARS AVAILABLE FOR EXPORT***",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -3582,20 +3162,6 @@
       "USB-uttag",
       "Yttertemperaturmätare",
       "V"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3614,10 +3180,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24496453",
     "published_ts": 1783008130000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Besiktad till: 2027-01-31\nSenast servad: Levereras nyservad\nKamrem & vattenpump bytt: 2021-03-11 på ca 15 000 mil.\nÅrsskatt 3553kr och en förbrukning på 0,59L/mil.\nFin och välbehållen Volvo V60 D4 AWD Ocean race. Utöver det utrustad med bl.a stora ljudpaketet från Harmon-Kardon, city safety, full skinninredning, svart innertak, insynsskydd, rattvärme, dragkrok, bluetooth m.m\nFullstämplad servicebok, alltid utfört på Volvo (bilbolaget). 2 nycklar, sommar & vinterdäck ingår vid utsatt pris.\nVid köp ingår 14 dagars gratis helförsäkring genom ICA-Försäkringar.\nMöjlighet att köpa till förlängd garanti finns genom vår samarbetspartner Garanti gruppen.\nFör närvarande använder vi oss av tidsbokade besök.\nVi erbjuder hemleverans inom hela Sverige efter överenskommelse.\nFörmånlig finansiering via My Money.\nVarmt välkommen till Hewi Motor.\nBesöksadress: Gamla Uppsala Bredåker 162\nVid intresse ring eller maila oss på 018-13 22 55 eller info @ hewimotor.se",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -3672,20 +3240,6 @@
       "Färddator",
       "12V-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3704,10 +3258,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/23388097",
     "published_ts": 1779205489000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 i mycket fint skick samt är FULLUTRUSTAD! Kamrem är bytt, bromsskivor är bytta samt full servicehistorik enligt intervallsplan. Bränsleförbrukning på 4.9 L/100km. Besiktningsinformation: gäller tom 2027-07-31. Medföljer M+S (allround) däck på aluminiumfälgar. Vi erbjuder RÄNTEFRI finansiering upp till 36 månader. Möjlighet till 0 kr i kontantinsats och från 1064 kr/mån. Vi byter in din gamla bil, vi kan även finansiera köpet av din bil. Du gör en riktigt bra bilaffär hos Royal Cars i Märsta. Vi har öppet 7 dagar i veckan. Vi reserverar oss för ev. fel.",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -3785,20 +3341,6 @@
       "Handbroms (elektronisk)",
       "Insynsskydd",
       "Avstängningsbar airbag passagerare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3817,10 +3359,13 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24204453",
     "published_ts": 1781987133000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 D4 Geartronic 190 hk – 2017 | Välutrustad & Bränslesnål\nNu säljer jag min välskötta Volvo V60 D4 Geartronic årsmodell 2017 som har gått 28900mil En bekväm, säker och ekonomisk kombi som passar perfekt både för familjen och pendling.\nFakta om bilen:\n* Volvo V60 D4 Geartronic\n* Årsmodell: 2017\n* Effekt: 190 hk\n* Automatväxellåda\n* GPS/Navigationssystem\n* Dragkrok\n* Uppvärmd ratt\n* AC/Klimatanläggning fungerar utmärkt\n* 2 nycklar\n* Besiktad till och med 2027-05-31\n* Årsskatt: 1 155 kr\n* Bränsleförbrukning 4,3 l/100 km\nService och underhåll:\nKamremmen är bytt två gånger:\n* 2025-06-20 vid 27110 mil\n* 2021-03-12 vid 14570 mil\nBilen är i gott skick och fungerar mycket bra både mekaniskt och komfortmässigt.\nOBS!!\nEndast dubbade vinterdäck ingår.",
+    "flags": [
+      "kamrem",
+      "växellåda"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -3884,20 +3429,6 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -3916,9 +3447,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/22939811",
     "published_ts": 1784138488000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Bilia hjälper dig med allt vid ditt bilköp.\nTryggt.\nAlla bilar vi säljer är kvalitetssäkrade\nAlla bilar har en varudeklaration\nVi erbjuder möjlighet till förlängd bilgaranti\n30 dagars bytesrätt på begagnade bilar\nEl- och Hybridbilar har genomgått test av batterihälsa\nKomplett.\nFinansiering med förmåner vid Bilia Total – vår helhetslösning\nFörsäkring\nServiceavtal\nCarpay-kort – få poäng på alla köp\nVi erbjuder möjligheten till hemleverans",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -4014,21 +3545,52 @@
       "Blank list runt sidorutor",
       "DSTC- Antisladdsystem",
       "Skyddsnät i nylon"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
+  },
+  {
+    "ad_id": "24852513",
+    "heading": "Volvo V60",
+    "model": "V60",
+    "model_specification": "D2 Aut B-kam P-värm Blis Farthållare 115hk",
+    "year": 2015,
+    "price": 104900,
+    "mileage": 19787,
+    "mileage_unit": "SCANDINAVIAN_MILE",
+    "transmission": "Automatisk",
+    "fuel": "Diesel",
+    "location": "Uppsala",
+    "regno": "WSJ243",
+    "seller": "Företag",
+    "url": "https://www.blocket.se/mobility/item/24852513",
+    "published_ts": 1784649823000,
+    "is_new": false,
+    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
+    "description": "Varmt välkomna till Handla Bil i Uppsala, Vi har öppet alla dagar i veckan!\nHANDLA BIL ERBJUDER HEMLEVERANS I HELA SVERIGE.\nFINANSIERING:\nKontantinsats: 19 890 kr\nMånadskostnad: 1 091 kr/mån\nVälkommen till oss på Handla Bil Uppsala - ring oss direkt på 018-474 42 50 eller\nbesök vår anläggning i Fullerö.\nDenna bil är leveransklar och är utrustad med bla: Momentum packet, Döda vinkelvarnare, Backkamera, Parkeringssensorer bak, Volvo on call, Bluetooth, Parkeringsvärmare, Farthållare, Elstol med minne förare, Elstol passagerare och mycket mer!\nSERVICEHISTORIK\n2016 - 1460 mil\n2017 - 2429 mil\n2018 - 3428 mil\n2019 - 5641 mil\n2020 - 7774 mil\n2021 - 9562 mil\n2022 - 11666 mil\n2023 - 13997 mil\n2024 - 16245 mil\n2025 - 18430 mil\n2026 - 19787 mil Kamrem bytt\nBRA ATT VETA:\n- Antal nycklar: 2 st\n- Dragkrok: Nej\n- Årsskatt: 1 103 kr\n- Besiktigad senast: 2027-09-30\nVARFÖR HANDLA BIL? Vi byter gärna in din nuvarande bil och hjälper dig med\nhela affären på plats eller online.\nVi svarar alltid snabbt på mejl (kika i skräpposten om du saknar svar).\nHitta hit: Ni hittar oss längs med E4, strax norr om Uppsala (Fullerö).\nRing oss: 018-474 42 50 Ring gärna innan besök så vi kan säkerställa att bilen\nfinns kvar.\nEn administrativ registreringsavgift på 1195 kr tillkommer på alla våra bilar.",
+    "flags": [
+      "kamrem"
+    ],
+    "specifications": {
+      "Märke": "Volvo",
+      "Modell": "V60",
+      "Modellår": "2015",
+      "Biltyp": "Kombi",
+      "Drivmedel": "Diesel",
+      "Effekt": "116 Hk",
+      "Motorvolym": "1,6 L",
+      "Miltal": "19 787 mil",
+      "Växellåda": "Automatisk",
+      "Max trailervikt": "1 300 kg",
+      "Drivhjul": "Tvåhjulsdriven",
+      "Säten": "5",
+      "Färg": "Röd",
+      "Färgbeskrivning": "Röd",
+      "Bilens plats": "Sverige",
+      "Avgiftsklass": "Personbil",
+      "Registreringsnummer": "WSJ243",
+      "Chassinummer": "YV1FW848BF1228639",
+      "Registreringsdatum": "2014-07-07",
+      "Försäljningsform": "Begagnad bil till salu"
+    }
   },
   {
     "ad_id": "13374357",
@@ -4046,10 +3608,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/13374357",
     "published_ts": 1783677207000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "• Varmt välkommen in till oss på ELLAS BIL i Bro för en provkörning!\n• Nu har vi fått in en Svensksåld Volvo V60 D4 AWD 181HK\nOcean Race, Momenum, High Performance Sound System, Navigator, Dragkrok, Rattvärme, Parkeringssensorer (bak), Parkeringsvärmare (tidur), Motorvärmare (med tidur), Klädsel (helskinn), VOC (Volvo On Call), 12V-UTTAG, ABS-bromsar, ACC, ACC 2 klimatzoner, Airbag förare, Airbag passagerare fram, Antisladd, Autobroms, AUX-ingång, Barnlås, Broms-assistans, CD-Stereo, Centrallås (fjärrstyrt), Delbart baksäte, Digitalt mätarhus, Elhissar (fram och bak), Elinfällbara sidospeglar, Eluppvärmda sidospeglar, Euro NCAP 5, Fartbegränsare, Farthållare, Fällbara baksäten, Färddator, Helljusassistans, ISOFIX-fästen bak, Läslampa, Lättmetallfälgar, Mattor (textil), Multifunktionsratt, Nödsamtal, Rails, Regnsensor, Servostyrning, Sidoairbags, Sminkspegel, Startspärr, Stöldlarm, Svensksåld, Sätesvärme (bak), Sätesvärme (fram), USB-uttag, Yttertemperaturmätare.\nÖversikt:\n• Nästa Besiktning: 2026-12-31\n• Kamrem bytt : 2022-02-09 vid 16.473 Mil\n• Senast Servad: 2026-01-28 vid 24.940Mil\n• 2 Veckors helförsäkring kostnadsfritt\n• Möjlighet till 0 kr i kontantinsats.\n• Till denna bil kan ni köpa upp till 36 månaders garantin.\n• Gratis Carfax rapport ordnas givetvis.\n• Vi tar gärna din bil i inbyte.\n• Hemleverans kan ordnas enligt överenskommelse.\n• All cars are available for export.\nVi kan ta emot en deposition via Swish för reservation på distans. På plats tar vi endast Swish, Banköverföring eller finansiering.\n*GZZ730*",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -4126,20 +3690,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -4158,9 +3708,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24629174",
     "published_ts": 1783430563000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "För att säkerställa att bilen du är intresserad av finns tillgänglig, rekommenderar vi att du ringer oss på 070-464 28 22 innan ditt besök.\nVälkommen till vår bilhall på Gullivervägen 11 i Kallhäll ! Här hittar du ett brett utbud av bilar och en personlig service utöver det vanliga.\nKontakta oss idag – vi ser fram emot att hjälpa dig",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -4243,20 +3793,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -4275,9 +3811,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24502257",
     "published_ts": 1783019096000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "OBS Vi arbetar endast med tidsbokade besök, tidsbokning krävs för visning av bil.?\nNu har vi fått in en välutrustad och populär Volvo V60 D4 AWD Geartronic med stark dieselmotor på 181 hk och fyrhjulsdrift.\nBilen är nyligen servad och redo för många trygga mil framöver.\nNyservad 2026-07-02 vid 235 048 km och besiktad till 2027-01-31.\nPraktisk och bekväm kombi med automatlåda, fyrhjulsdrift och stark dieselmotor. Passar bra både för vardagskörning och längre resor.\nAlla våra bilar är testade och godkända med ett 110 punkters test för att kunna säkerställa att varje bil håller den högsta möjliga kvalité.\nVi arbetar endast med tidsbokade besök, tidsbokning krävs för visning av bil. För att boka en tid kontakta oss. Självklart ordnar vi finansiering med låg månadskostnad",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -4343,20 +3879,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -4375,10 +3897,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24685697",
     "published_ts": 1784279201485,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Vi erbjuder flexibla finansieringslösningar på samtliga bilar med en godkännandegrad på 96% – gå in på riddermarkbil.se eller ring oss för att få se din potentiella månadskostnad.\nRiddermark Bil har Sveriges NÖJDASTE kunder enligt Trustpilot\n*NUY645* *Vi tar emot alla inbyten och erbjuder hemleverans i hela Sverige!*\nEn elegant kombi som erbjuder en perfekt balans mellan körglädje, funktionalitet och ekonomi. Volvo V60 D3 levererar generösa utrymmen, hög kvalitetskänsla och den komfort som gjort Volvo till ett självklart val för många bilägare.\n*OBS: Vänligen ring oss innan ditt besök för att säkerställa att bilen finns i butiken, då den kan vara placerad på en annan anläggning eller reserverad*\nUtrustning inkluderar:\n- R Design\n- Taklucka\n- Dieselvärmare\n- Dragkrok\n- Parkeringssensorer\n- High Performance Ljudsystem\n- Bluetooth\n- Elhissar\n- Farthållare\nJämför denna bil med någon av våra andra Volvo V60 i lager. Se våra bilar på https://www.riddermarkbil.se/kopa-bil/?series=v60\nÖvrig information om bilen:\nÅrsskatt: Endast 1520 kr\nVid blandad körning är förbrukning endast 0.45 l/mil\nBesiktigad till och med 2026-10-31\nMöjlighet till 12-60 månaders garanti\nServicehistorik:\n2013-08-14 - 1940 mil\n2014-09-19 - 4058 mil\n2015-12-11 - 6160 mil\n2017-01-25 - 7292 mil\n2018-03-28 - 8371 mil\n2018-12-21 - 8938 mil\n2020-01-14 - 10102 mil\n2021-02-19 - 11273 mil\n2022-03-07 - 12570 mil\n2024-07-03 - 14562 mil\n2025-03-14 - 15211 mil\n2026-02-16 - 16205 mil\nBesök\nhttps://www.riddermarkbil.se/kopa-bil/volvo/nuy645/\nför att:\n• Se närbilder och film på bilen\n• Reservera bilen direkt online\n• Få mer info om utrustning och tillval\nDärför ska du välja Riddermark Bil:\n* Störst i Sverige på begagnade bilar\n* Erbjuder hemleverans i hela Sverige\n* 14 dagars helförsäkring via Folksam\n* Över 10 tusen omdömen på Trustpilot\n* Våra bilar är testade på över 100 punkter\n* Kvalitetssäkrade bilar\nTelefontider:\nMåndag - Söndag: 08:00 - 24:00\nBesökstider i butik:\nMåndag - Fredag: 09:00 - 19:00\nLördag: 10:00 - 18:00\nSöndag: 10:00 - 16:00\nRIDDERMARK BIL TRYGGHETSPAKET:\nSkydda din bil med vårt trygghetspaket. Välj mellan 12-60 månaders garanti och komplettera med extra hjuluppsättningar till bra priser. Gör ditt bilköp tryggt och enkelt hos oss.\nMed korta lagertider försvinner våra bilar snabbt! Ring oss idag för att reservera din bil: 018-470 74 00. Vi erbjuder även skräddarsydd finansiering och 14 dagars fri försäkring från Folksam.\nSe hur vi genomför våra tester här:\nhttps://vimeo.com/1011323016\nVälkomna!\nUtrustning/Tillbehör:\nR Design,Taklucka,Parkeringssensorer bak,Farthållare,Multifunktionsratt,AC och klimatanläggning,ACC/Klimatanläggning,Bluetooth,Fjärrstyrt centrallås,Avstängningsbar airbag,ISOFIX,Elhissar fram och bak,Elinfällbara sidospeglar,Sätesvärme fram,Start/stopp-funktion,Svensksåld,Antispinn,12V-uttag,AUX-ingång,USB-ingång,Rails,Färddator,AC,A/C,Aircondition,Dragkrok,Parkeringssensor bak,Helskinn,Delskinn,Motorvärmare,Soltak/Glastak",
+    "flags": [
+      "ägare"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -4432,20 +3956,6 @@
       "Delskinn",
       "Motorvärmare",
       "Soltak/Glastak"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -4464,10 +3974,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/21488450",
     "published_ts": 1783324128000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Nu har vi fått in en riktigt fin Volvo V60 D3 Geartronic 163hk 2011. En rymlig och välutrustad kombi med hög komfort, automatlåda och stark dieselmotor. Perfekt familjebil med god ekonomi och redo för omgående leverans!\nFör digital visning: Klicka på \"Se video\" under huvudbilderna.\nIngår i priset:\n• 30 dagars helförsäkring\nUtrustning utöver standard:\n• Automat\n• Momentum\n• Parkeringssensorer\n• Fjärstyrt parkeringsvärmare\n• Bluetooth\n• Dragkrok\nÖvrig information:\n• Svensksåld\n• Välservad\n• Endast 4 brukare\n• Fordonsskatt 3 762:-\n• Besiktigad till och med 2026-08-31\n• Blandad förbrukning från 6,6 l/100km.\n• Kamrem bytt 2024-08-30 vid 13 153 km\nTrygg och smidig bilaffär hos QAutos\n• Vi erbjuder hemleverans i hela Sverige\n• Möjlighet att ta din nuvarande bil i inbyte\n• Finansiering med snabb och enkel kreditprövning\n• Förmånliga serviceavtal för ett bekymmersfritt bilägande\nVi köper och säljer över 800 bilar per år och fokuserar på trygga affärer, tydlig information och hög service. Kontakta oss gärna för mer information eller för att reservera bilen.\nFörst till kvarn, tillgänglig för omgående affär och leverans över hela Sverige!",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -4531,20 +4043,6 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -4563,9 +4061,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24589185",
     "published_ts": 1784274117000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "-",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -4634,21 +4132,57 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
+  },
+  {
+    "ad_id": "24999957",
+    "heading": "Volvo V60",
+    "model": "V60",
+    "model_specification": "T4F Powershift",
+    "year": 2014,
+    "price": 115000,
+    "mileage": 20320,
+    "mileage_unit": "SCANDINAVIAN_MILE",
+    "transmission": "Automatisk",
+    "fuel": "Bensin",
+    "location": "Lidingö",
+    "regno": "PZT757",
+    "seller": "Privat",
+    "url": "https://www.blocket.se/mobility/item/24999957",
+    "published_ts": 1784659673000,
+    "is_new": false,
+    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
+    "description": "Säljer nu min trotjänare pga ny tjänstebil.\nBilen har nyligen genomgått service och besiktning. Utöver vanlig service har även bakbromsar, både skivor och belägg bytts för knappt 2 månader sedan. Bilen har även fått nytt startbatteri i höstas.\nKamrem byttes vid 17900 mil.\nBilen är i mycket fint skick, nya m+s däck som rullat knappt 1000mil. Till bilen följer det även med dubbade vinterdäck på lätt aluminiumfälgar.",
+    "flags": [
+      "kamrem"
+    ],
+    "specifications": {
+      "Märke": "Volvo",
+      "Modell": "V60",
+      "Modellår": "2014",
+      "Biltyp": "Kombi",
+      "Drivmedel": "Bensin",
+      "Effekt": "180 Hk",
+      "Motorvolym": "1,6 L",
+      "Miltal": "20 320 mil",
+      "Bränsleförbrukning(NEDC)NEDC var den officiella testcykeln i Europa för att mäta bränsleförbrukning och utsläpp fram till september 2018": "7,2 L/100 km",
+      "Växellåda": "Automatisk",
+      "Max trailervikt": "750 kg",
+      "Drivhjul": "Framhjulsdrift",
+      "Vikt": "1 646 kg",
+      "Säten": "5",
+      "Antal dörrar": "5",
+      "Bagageutrymme": "430 L",
+      "Färg": "Grå",
+      "Bilens plats": "Sverige",
+      "Senaste besiktningsdatum": "2026-04-28",
+      "Nästa besiktningsdatum": "2027-06-30",
+      "Avgiftsklass": "Personbil",
+      "Chassinummer": "YV1FW07HBE1172062",
+      "Registreringsdatum": "2013-10-30",
+      "Antal ägare": "14",
+      "Försäljningsform": "Begagnad bil till salu"
+    }
   },
   {
     "ad_id": "24766617",
@@ -4666,7 +4200,7 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24766617",
     "published_ts": 1783882925000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
     "description": "",
     "flags": [],
@@ -4766,7 +4300,7 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/23819386",
     "published_ts": 1783723209000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
     "description": "",
     "flags": [],
@@ -4865,10 +4399,12 @@
     "seller": "Privat",
     "url": "https://www.blocket.se/mobility/item/24387800",
     "published_ts": 1782653511000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 D3\nAutomat, dragkrok\nFungerar felfritt\nServad enligt intervall, kamrem bytt\nSommar och vinterdäck\nHaft bilen i snart 5 år",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -4886,20 +4422,7 @@
       "Avgiftsklass": "Personbil",
       "Försäljningsform": "Begagnad bil till salu"
     },
-    "equipment": [],
-    "debug_detail_keys": [
-      "ad_id",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
-    ]
+    "equipment": []
   },
   {
     "ad_id": "24501616",
@@ -4917,10 +4440,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24501616",
     "published_ts": 1784562924000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Vi erbjuder flexibla finansieringslösningar på samtliga bilar med en godkännandegrad på 96% – gå in på riddermarkbil.se eller ring oss för att få se din potentiella månadskostnad.\nRiddermark Bil har Sveriges NÖJDASTE kunder enligt Trustpilot\n*LEU264* *Vi tar emot alla inbyten och erbjuder hemleverans i hela Sverige!*\n*OBS: Vänligen ring oss innan ditt besök för att säkerställa att bilen finns i butiken, då den kan vara placerad på en annan anläggning eller reserverad*\nÖvrig information om bilen:\nÅrsskatt: Endast 1328 kr\nVid blandad körning är förbrukning endast 0.67 l/mil\nBesiktigad till och med 2027-07-31\nMöjlighet till 12-60 månaders garanti\nServicehistorik:\n2011-12-15 - 1445 mil\n2012-10-17 - 2303 mil\n2013-10-24 - 3634 mil\n2014-10-23 - 5220 mil\n2015-11-20 - 6604 mil\n2016-12-09 - 7971 mil\n2018-01-16 - 8495 mil\n2019-01-22 - 9021 mil\n2020-03-09 - 9505 mil\n2021-04-13 - 9779 mil\n2026-04-24 - 11365 mil\nKamremsbyte: 9595 mil 2020-03-09\nBesök\nhttps://www.riddermarkbil.se/kopa-bil/volvo/leu264/\nför att:\n• Se närbilder och film på bilen\n• Reservera bilen direkt online\n• Få mer info om utrustning och tillval\nDärför ska du välja Riddermark Bil:\n* Störst i Sverige på begagnade bilar\n* Erbjuder hemleverans i hela Sverige\n* 14 dagars helförsäkring via Folksam\n* Över 10 tusen omdömen på Trustpilot\n* Våra bilar är testade på över 100 punkter\n* Kvalitetssäkrade bilar\nKontakta oss för mer information:\nTelefon: 08-572 142 35\nMejladress: taby @ riddermarkbil.se\nAdress: Måttbandsvägen 3A, 187 66, Täby\nRIDDERMARK BIL TRYGGHETSPAKET:\nSkydda din bil med vårt trygghetspaket. Välj mellan 12-60 månaders garanti och komplettera med extra hjuluppsättningar till bra priser. Gör ditt bilköp tryggt och enkelt hos oss.\nMed korta lagertider försvinner våra bilar snabbt! Ring oss idag för att reservera din bil: 08-572 142 35. Vi erbjuder även skräddarsydd finansiering och 14 dagars fri försäkring från Folksam.\nSe hur vi genomför våra tester här:\nhttps://vimeo.com/1011323016\nTelefontider:\nMåndag - Söndag 08:00 - 24:00\nBesökstider i butik:\nMåndag - Fredag 09:00 - 19:00\nLördag 10:00 - 18:00\nSöndag 10:00 - 16:00\nVälkomna!\nUtrustning/Tillbehör:\nAircondition,Farthållare,Delskinn,Parkeringssensor bak,AC och klimatanläggning,Elhissar fram och bak,Eluppvärmda sidospeglar,Färddator,ISOFIX Fästen bak,Multifunktionsratt,Parkeringssensorer bak,Regnsensor,Sätesvärme fram,Svensksåld,Xenonstrålkastare,Bluetooth,Motorvärmare",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -4960,20 +4485,6 @@
       "Xenonstrålkastare",
       "Bluetooth",
       "Motorvärmare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -4992,10 +4503,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24865276",
     "published_ts": 1784218840000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "OBS: Ring eller maila för att boka visning av bilen. Kolla skräppost vid mail-kontakt!\nVolvo V60 D4 Geartronic, 190 hk, årsmodell 2016. En stilren och komfortabel premiumkombi som kombinerar stark dieselmotor, automatlåda och Volvos välkända säkerhet. Ett utmärkt val för dig som söker en bil med hög komfort, låg förbrukning och gott om utrymme.\nDen kraftfulla D4-motorn på 190 hk tillsammans med Geartronic-automat ger en följsam och bekväm körupplevelse med gott om kraft för både vardagskörning och längre resor. Volvo V60 är uppskattad för sin höga säkerhetsnivå, bekväma kupé och generösa lastutrymmen, vilket gör den lika lämpad för familjelivet som för tjänstekörning.\nBilens utrustning inkluderar bland annat:\n• Dieselvärmare\n• Dragkork\n• Parkeringssensorer bak\n• Business Edition\n• Centrallås\n• Bluetooth för musik och telefon\n• Kamrem bytt\n• Senaste service: 2026-06-04 - 22,809 Mil\nKort om bilen:\n• Blandad förbrukning: 0,43/L milen\n• Besiktigad till: 2026-08-31\n• Årsskatt: 1363 kr\n• Två veckors helförsäkring via ICA Försäkringar ingår vid köp\n• Upp till 3 års garanti går att teckna\nKontakta oss så bjuder vi på en personlig digital visning och skickar fler bilder samt test på bilen – direkt till din mobil eller mejl.\nSe mer på vår hemsida & instagram - mcars.se\nVi gör det enkelt för dig:\n• Smidig finansiering via LF Finans\n• Trygg leverans till dörren\n• Snabbt och enkelt ägarbyte – vi fixar allt!\nVi erbjuder:\nVi tar din bil i inbyte!\nKontakta oss med registreringsnummer och miltal via telefon eller mejl så återkommer vi med ett prisförslag.\nÖppet alla dagar på telefon:\nMån–tors: 10–21\nFre: 10–18\nLör–sön: 11–18\n08-708 70 80\ninfo @ mcars.se",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -5076,20 +4589,6 @@
       "Uppvärmda spolare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5108,10 +4607,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/22735469",
     "published_ts": 1782842548000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Volvo V60 D4 Manuell 2015. En trygg, kraftfull och elegant kombi som kombinerar Volvos välkända säkerhet med stark prestanda och låg bränsleförbrukning. Den effektiva D4?dieseln på 181 hk tillsammans med den manuella växellådan ger en engagerande, pigg och bränslesnål körupplevelse i alla lägen.\nVolvo V60 är känd för sin stabila väghållning, höga komfort och imponerande driftsäkerhet – ett perfekt val för dig som vill ha en premiumkombi som är både praktisk och rolig att köra, utan att kompromissa med säkerhet eller ekonomi.\nBilen är i mycket gott skick och väl omhändertagen. Den erbjuder en fin utrustningsnivå med bland annat:\n• Dragkrok\n• Bränslevärmare tidur\n• City Safety\n• Bluetooth\n• Parkeringssensorer bak\n• Farthållare\nEn rymlig och flexibel kombi med gott om plats för både passagerare och bagage – perfekt för familjen, långpendlaren eller dig som vill ha en mångsidig bil med premiumkänsla.\nHos Carson finner ni ett brett sortiment av bilar i alla prisklasser, alla våra bilar är grundligt testade. I vårt testprogram ingår åtgärder som säkerställer service, besiktning, byte av ruta, trafiksäkerhetstest samt funktionstest.\nCarson Sverige AB erbjuder även i framtiden att genomföra service och rekond av din bil. Det gör vi i vår egen verkstad. Vi erbjuder även fri lånebil och låga priser, samt att vi har mycket kompententa servicetekniker som bryr sig om din bil!\nVid en affär hos oss på Carson så tar vi självklart emot din befintliga bil i inbyte, i de allra flesta fall så kan vi ge en relativt exakt bedömning av ett mellanpris redan över telefon eller mail. Varmt välkomna till Carson Sverige AB, vi finns på Fågelsångsv. 8 i Vallentuna, tel: 08 - 522 927 00. All our cars are available for export.",
+    "flags": [
+      "växellåda"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -5164,20 +4665,6 @@
       "Rattvärme",
       "Regnsensor",
       "Komplett ifylld servicebok"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5196,9 +4683,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/23939848",
     "published_ts": 1781003713000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "-",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -5263,20 +4750,6 @@
       "Xenon (halvljus)",
       "Xenon (helljus)",
       "Xenon Strålkastare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5295,10 +4768,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/22546602",
     "published_ts": 1783774470000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Välkommen in till oss på Motorteamet!\nNu finns denna fina Volvo V60 i lager redo för leverans! En mycket fin bil med gott stuk. Sänkt med Coils, IMAZ 19\", Stjärnhimmel och redo för en härlig sommar! Bra servicehistorik där kamremmen byttes 2024. Utrustad med bla Volvo on Call, dragkrok, och digitala mätarhuset. Varmt välkommen att slå till på denna schyssta V60, skynda innan någon annan hinner före!\nBRA ATT VETA\nGaranti: Ja\nBesiktad tom: 2026-12-31\nAntal nycklar: 2st\nSenast servad: 2025-11-16 vid 22 903 mil\nÅrsskatt: 3553kr\nFörbrukning: 5,9 - 6,4 l/100km\nÖvrig info: 2 brukare, Stjärnhimmel, Kamrem & vattenpump bytt 2024-04-12 vid 17 829 mil\nINGÅR TILL DENNA BIL\n1 månad gratis försäkring  via Länsförsäkringar\nHEMLEVERANS\nBor du långt bort? Inga problem! Vi kan leverera bilar över hela landet.\nVi rekommenderar att ni ringer till försäljningen på 018-13 81 48 för att säkerställa att bilen är kvar i lager innan ert besök.\nFöredrar du dubb eller friktion? Vi samarbetar med Nordens ledande däckföretag och hittar en uppsättning som passar dig och din bil.\nVi byter gärna in din nuvarande bil. Registreringsavgift på 1195kr tillkommer på alla fordon.\nVill du känna dig säker på vägen? Förläng din garanti i upp till 3 år genom Garantidirekt.\nVi erbjuder flexibla och förmånliga lösningar kring din finansiering. Kontakta oss för offert!",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -5341,20 +4816,6 @@
       "Bluetooth Audio",
       "Dragkrok, fast",
       "Svart innertak"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5373,9 +4834,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/22950619",
     "published_ts": 1777909735000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Hemleverans erbjuds i hela Europa (Fråga oss vad det kostar att få bilen hemlevererad)\nFör att säkerställa att bilen du är intresserad av finns tillgänglig, rekommenderar vi att du ringer oss på 070-464 28 22 innan ditt besök.\nVälkommen till vår bilhall på Gullivervägen 11 i Kallhäll ! Här hittar du ett brett utbud av bilar och en personlig service utöver det vanliga.\nKontakta oss idag – vi ser fram emot att hjälpa dig!\nVälkommen!",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -5463,20 +4924,6 @@
       "Trötthetsvarnare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5495,10 +4942,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/18240522",
     "published_ts": 1783239619000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Ocean Race paket, Volvo On Call, Nybesiktigad t.o.m 2027-04-30, Årsskatt 1086 kr, Välservad, Nyservad vid 27109 mil (2025-10-15), Kamrem bytt vid 23052 mil (2022-11-24), Mycket välvårdad såväl invändigt som utvändigt.",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -5586,20 +5035,6 @@
       "Tonade rutor",
       "Sätesvärme bak",
       "Sätesvärme fram"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5618,9 +5053,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/23169086",
     "published_ts": 1782997258000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Säljer en mycket fin Volvo V60 D4 AWD 2016 – en sportig och komfortabel kombi som kombinerar kraft, säkerhet och praktisk användning på bästa sätt. Den starka dieselmotorn på 190 hk tillsammans med fyrhjulsdrift (AWD) och Geartronic automatlåda ger en stabil, trygg och följsam körupplevelse året runt.\nVolvo V60 erbjuder en bekväm och genomtänkt interiör med god sittkomfort, smarta lösningar och hög kvalitetskänsla. Bilen är rymlig nog för familjeliv och vardag, samtidigt som den är smidig och lättkörd. Med Volvos välkända säkerhetssystem och stabila vägegenskaper är detta en bil du kan känna dig trygg i i alla situationer.\nEn perfekt bil för dig som söker kombinationen av prestanda, säkerhet och komfort i ett stilrent och praktiskt format.\nÖvrig information om bilen:\nÅrsskatt: 2928 kr\nFörbrukning blandat: 5,5 l/100km\nBesiktigad till och med 2027-07-31\n*KAT572* Vi på Carson tar emot alla inbyten och erbjuder leverans i hela Sverige!\nHos Carson finner ni ett brett sortiment av bilar i alla prisklasser, alla våra bilar är grundligt testade. I vårt testprogram ingår åtgärder som säkerställer service, besiktning, byte av ruta, trafiksäkerhetstest samt funktionstest.\nCarson Sverige AB erbjuder även i framtiden att genomföra service och rekond av din bil. Det gör vi i vår egen verkstad. Vi erbjuder även fri lånebil och låga priser, samt att vi har mycket kompententa servicetekniker som bryr sig om din bil!\nVid en affär hos oss på Carson så tar vi självklart emot din befintliga bil i inbyte, i de allra flesta fall så kan vi ge en relativt exakt bedömning av ett mellanpris redan över telefon eller mail. Varmt välkomna till Carson Sverige AB, vi finns på Fågelsångsv. 8 i Vallentuna, tel: 08 - 522 927 00. All our cars are available for export.\nBMW 316d Sedan BMW 320d Sedan BMW 318d Touring BMW 320i Sedan Audi A4 Mercedes Benz C klass Volvo S60 Volkswagen Passat\nAudi A4 Sedan Audi A4 Avant quattro Audi A6 Avant Audi A5 Sportback BMW 318d   320d Touring Mercedes Benz C klass Volvo V60 D3 D4 Volkswagen Passat Variant",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -5674,20 +5109,6 @@
       "Regnsensor",
       "Svart innertak",
       "Kamrem bytt 31797km - 2026-02-09"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5706,10 +5127,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24163540",
     "published_ts": 1782579827000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Kombin som förenar kraft, komfort och säkerhet – Volvo V60 D4 AWD Geartronic! Med en stark D4-dieselmotor på 181 hk, smidig Geartronic-automat och fyrhjulsdrift (AWD) får du en bil som levererar trygg framkomlighet och imponerande långfärdskomfort året om.\nVolvo V60 är känd för sina fina köregenskaper, bekväma stolar och höga säkerhetsnivå. Den eleganta designen kombineras med en välplanerad interiör där både förare och passagerare trivs, samtidigt som det rymliga bagageutrymmet gör bilen perfekt för familjen, pendlingen eller semestern.\nDen starka dieselmotorn erbjuder gott om vridmoment och låg förbrukning, vilket gör bilen till ett utmärkt val för dig som kör många mil. Tillsammans med Volvos genomtänkta säkerhetssystem och gedigna kvalitetskänsla får du en bil som står sig stark även idag.\nEn välutrustad premiumkombi med fyrhjulsdrift, hög komfort och klassledande säkerhet – redo för nästa ägare!",
+    "flags": [
+      "ägare"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -5760,20 +5183,6 @@
       "Svensksåld",
       "USB-ingång",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5792,10 +5201,12 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/24303926",
     "published_ts": 1782326516000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
-    "flags": [],
+    "description": "Välkommen till Motorhuset i Stockholm AB\nVi erbjuder noggrant utvalda bilar med fokus på kvalitet, trygghet och personlig service. Med över 100 leveransklara bilar i lager hjälper vi dig att hitta rätt bil för dina behov.\nVolvo V60 D4 Geartronic, 190hk, 2016\nVolvo V60 D4 kombinerar hög komfort, stark prestanda och låg förbrukning. En välutrustad premiumkombi som passar lika bra för familjen som för långa pendlingar.\nUtrustad med:\n• Summum Business Edition Pro\n• Euro 6\n• Taklucka\n• Elstol förare med minne\n• Skinnstolar\n• Parkeringssensorer fram\n• Parkeringssensorer bak\n• Multifunktionsratt\n• Farthållare\n• Fartbegränsare\n• BLIS (dödavinkelvarnare)\n• Kollisionsvarning\n• Driver Alert\n• Körfilsassistent\nDokumenterad servicehistorik\n2025-11-01 24023mil\n2024-10-26 21750mil\n2023-11-27 19653mil\n2022-12-08 17611mil\n2021-12-27 15853mil\n2021-01-12 13994mil samt kamremsbyte\n2020-01-08 11723mil\n2019-01-10 8704mil\n2018-01-19 5702mil\n2017-01-20 2674mil\nBesiktigad till: 2026-12-31\nBränsleförbrukning blandad körning cirka 0,43 l/mil\nÅrsskatt: 1 155 kr\nFörmånlig finansiering erbjuds med möjlighet till räntefri delbetalning upp till 100 000 kr. Kan användas som kontantinsats eller för finansiering av hela bilköpet.\nFrån ca 1 300 kr/mån.",
+    "flags": [
+      "kamrem"
+    ],
     "specifications": {
       "Märke": "Volvo",
       "Modell": "V60",
@@ -5876,20 +5287,6 @@
       "Uppvärmda spolare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
   },
   {
@@ -5908,9 +5305,9 @@
     "seller": "Företag",
     "url": "https://www.blocket.se/mobility/item/23594851",
     "published_ts": 1779887775000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-07-22T17:02:37.556100+00:00",
-    "description": "",
+    "description": "Kontakta oss gärna för mer info på 08-55066158 eller 072-0923295. Adressen är Wedavägen 4C, 152 42 Södertälje. ÖPPETTIDER MÅN-FRE 09:30-17:30, LÖR 11-15, SÖN STÄNGT",
     "flags": [],
     "specifications": {
       "Märke": "Volvo",
@@ -5998,211 +5395,6 @@
       "Parkeringssensorer",
       "Sommardäck",
       "Vinterdäck"
-    ],
-    "debug_detail_keys": [
-      "ad_id",
-      "equipment",
-      "fuel",
-      "mileage",
-      "model_year",
-      "price",
-      "seller_type",
-      "specifications",
-      "subtitle",
-      "title",
-      "transmission",
-      "url"
     ]
-  },
-  {
-    "ad_id": "21426515",
-    "heading": "Volvo V60",
-    "model": "V60",
-    "model_specification": "D5 AWD Aut Summum Takl Skinn 18tum Värmare Blis Vhjul",
-    "year": 2011,
-    "price": 87000,
-    "mileage": 20500,
-    "mileage_unit": "SCANDINAVIAN_MILE",
-    "transmission": "Automatisk",
-    "fuel": "Diesel",
-    "location": "Åkersberga",
-    "regno": "LPX929",
-    "seller": "Privat",
-    "url": "https://www.blocket.se/mobility/item/21426515",
-    "published_ts": 1784719248000,
-    "is_new": false,
-    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
-    "description": "",
-    "flags": [],
-    "specifications": {
-      "Märke": "Volvo",
-      "Modell": "V60",
-      "Modellår": "2011",
-      "Biltyp": "Kombi",
-      "Drivmedel": "Diesel",
-      "Effekt": "205 Hk",
-      "Motorvolym": "2,4 L",
-      "Miltal": "20 500 mil",
-      "Bränsleförbrukning(NEDC)NEDC var den officiella testcykeln i Europa för att mäta bränsleförbrukning och utsläpp fram till september 2018": "6,9 L/100 km",
-      "Växellåda": "Automatisk",
-      "Max trailervikt": "750 kg",
-      "Drivhjul": "Fyrhjulsdrift",
-      "Vikt": "1 821 kg",
-      "Säten": "5",
-      "Antal dörrar": "5",
-      "Bagageutrymme": "430 L",
-      "Färg": "Svart",
-      "Färgbeskrivning": "Ovanlig brunbronze metallic, som ibland ser svart ut.",
-      "Färg interiör": "Brun skinnklädsel",
-      "Bilens plats": "Sverige",
-      "Senaste besiktningsdatum": "2026-02-17",
-      "Nästa besiktningsdatum": "2027-04-30",
-      "Avgiftsklass": "Personbil",
-      "Chassinummer": "YV1FW7056B1030481",
-      "Registreringsdatum": "2011-05-20",
-      "Antal ägare": "4",
-      "Försäljningsform": "Begagnad bil till salu"
-    }
-  },
-  {
-    "ad_id": "25018541",
-    "heading": "Volvo V60",
-    "model": "V60",
-    "model_specification": "D2 Automat Momentum VOC Värmare Rattvärme K-Bytt 3,45%",
-    "year": 2015,
-    "price": 89900,
-    "mileage": 23500,
-    "mileage_unit": "SCANDINAVIAN_MILE",
-    "transmission": "Automatisk",
-    "fuel": "Diesel",
-    "location": "Segeltorp",
-    "regno": "FLW636",
-    "seller": "Företag",
-    "url": "https://www.blocket.se/mobility/item/25018541",
-    "published_ts": 1784726023000,
-    "is_new": false,
-    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
-    "description": "",
-    "flags": [],
-    "specifications": {
-      "Märke": "Volvo",
-      "Modell": "V60",
-      "Modellår": "2015",
-      "Biltyp": "Kombi",
-      "Drivmedel": "Diesel",
-      "Effekt": "116 Hk",
-      "Motorvolym": "1,56 L",
-      "CO₂-utsläpp": "110 g/km",
-      "Miltal": "23 500 mil",
-      "Bränsleförbrukning(NEDC)NEDC var den officiella testcykeln i Europa för att mäta bränsleförbrukning och utsläpp fram till september 2018": "4,2 L/100 km",
-      "Växellåda": "Automatisk",
-      "Max trailervikt": "1 370 kg",
-      "Drivhjul": "Framhjulsdrift",
-      "Vikt": "1 702 kg",
-      "Säten": "5",
-      "Antal dörrar": "5",
-      "Bagageutrymme": "430 L",
-      "Färg": "Blå",
-      "Bilens plats": "Sverige",
-      "Senaste besiktningsdatum": "2025-11-01",
-      "Nästa besiktningsdatum": "2027-01-31",
-      "Avgiftsklass": "Personbil",
-      "Registreringsnummer": "FLW636",
-      "Chassinummer": "yv1fw848bf1240593",
-      "Registreringsdatum": "2014-10-28",
-      "Antal ägare": "2",
-      "Försäljningsform": "Begagnad bil till salu"
-    }
-  },
-  {
-    "ad_id": "24852513",
-    "heading": "Volvo V60",
-    "model": "V60",
-    "model_specification": "D2 Aut B-kam P-värm Blis Farthållare 115hk",
-    "year": 2015,
-    "price": 104900,
-    "mileage": 19787,
-    "mileage_unit": "SCANDINAVIAN_MILE",
-    "transmission": "Automatisk",
-    "fuel": "Diesel",
-    "location": "Uppsala",
-    "regno": "WSJ243",
-    "seller": "Företag",
-    "url": "https://www.blocket.se/mobility/item/24852513",
-    "published_ts": 1784649823000,
-    "is_new": false,
-    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
-    "description": "",
-    "flags": [],
-    "specifications": {
-      "Märke": "Volvo",
-      "Modell": "V60",
-      "Modellår": "2015",
-      "Biltyp": "Kombi",
-      "Drivmedel": "Diesel",
-      "Effekt": "116 Hk",
-      "Motorvolym": "1,6 L",
-      "Miltal": "19 787 mil",
-      "Växellåda": "Automatisk",
-      "Max trailervikt": "1 300 kg",
-      "Drivhjul": "Tvåhjulsdriven",
-      "Säten": "5",
-      "Färg": "Röd",
-      "Färgbeskrivning": "Röd",
-      "Bilens plats": "Sverige",
-      "Avgiftsklass": "Personbil",
-      "Registreringsnummer": "WSJ243",
-      "Chassinummer": "YV1FW848BF1228639",
-      "Registreringsdatum": "2014-07-07",
-      "Försäljningsform": "Begagnad bil till salu"
-    }
-  },
-  {
-    "ad_id": "24999957",
-    "heading": "Volvo V60",
-    "model": "V60",
-    "model_specification": "T4F Powershift",
-    "year": 2014,
-    "price": 115000,
-    "mileage": 20320,
-    "mileage_unit": "SCANDINAVIAN_MILE",
-    "transmission": "Automatisk",
-    "fuel": "Bensin",
-    "location": "Lidingö",
-    "regno": "PZT757",
-    "seller": "Privat",
-    "url": "https://www.blocket.se/mobility/item/24999957",
-    "published_ts": 1784659673000,
-    "is_new": false,
-    "first_seen_at": "2026-07-22T14:27:19.734019+00:00",
-    "description": "",
-    "flags": [],
-    "specifications": {
-      "Märke": "Volvo",
-      "Modell": "V60",
-      "Modellår": "2014",
-      "Biltyp": "Kombi",
-      "Drivmedel": "Bensin",
-      "Effekt": "180 Hk",
-      "Motorvolym": "1,6 L",
-      "Miltal": "20 320 mil",
-      "Bränsleförbrukning(NEDC)NEDC var den officiella testcykeln i Europa för att mäta bränsleförbrukning och utsläpp fram till september 2018": "7,2 L/100 km",
-      "Växellåda": "Automatisk",
-      "Max trailervikt": "750 kg",
-      "Drivhjul": "Framhjulsdrift",
-      "Vikt": "1 646 kg",
-      "Säten": "5",
-      "Antal dörrar": "5",
-      "Bagageutrymme": "430 L",
-      "Färg": "Grå",
-      "Bilens plats": "Sverige",
-      "Senaste besiktningsdatum": "2026-04-28",
-      "Nästa besiktningsdatum": "2027-06-30",
-      "Avgiftsklass": "Personbil",
-      "Chassinummer": "YV1FW07HBE1172062",
-      "Registreringsdatum": "2013-10-30",
-      "Antal ägare": "14",
-      "Försäljningsform": "Begagnad bil till salu"
-    }
   }
 ]
