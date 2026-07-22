@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install blocket-api
+        run: pip install blocket-api beautifulsoup4 httpx
 
       - name: Run search
         run: python scripts/search.py
