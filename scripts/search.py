@@ -91,19 +91,46 @@ def flag_keywords(text: str) -> list[str]:
     return [kw for kw in RISK_KEYWORDS if kw in text_l]
 
 
+MAX_PAGES = 6  # sida-tak - sluta tidigare om en sida kommer kort/tom
+
+
+def fetch_all_candidates(api: BlocketAPI) -> list[dict]:
+    """Hämtar flera sidor och kombinerar fritextsökning ('V60') med märkesfilter.
+    Modellfiltret i biblioteket stödjer bara märkesnivå (Volvo), inte en
+    specifik modellinje - utan fritextsökningen kan riktiga V60-träffar
+    hamna på sida 2+ och missas helt om sida 1 domineras av andra Volvo-modeller."""
+    all_docs: list[dict] = []
+    for page in range(1, MAX_PAGES + 1):
+        result = api.search_car(
+            "V60",
+            page=page,
+            models=[CarModel.VOLVO],
+            locations=SEARCH_LOCATIONS,
+            price_to=PRICE_TO,
+            year_to=YEAR_TO,
+            sort_order=CarSortOrder.PUBLISHED_DESC,
+        )
+        docs = result.get("docs", [])
+        if not docs:
+            break
+        all_docs.extend(docs)
+        if len(docs) < 40:  # kort sida = sista sidan (Blocket ger upp till ~50/sida)
+            break
+    return all_docs
+
+
 def run() -> None:
     api = BlocketAPI()
     cache = load_cache()  # ad_id (str) -> tidigare sparad, fullständig post
 
-    result = api.search_car(
-        models=[CarModel.VOLVO],
-        locations=SEARCH_LOCATIONS,
-        price_to=PRICE_TO,
-        year_to=YEAR_TO,
-        sort_order=CarSortOrder.PUBLISHED_DESC,
-    )
-
-    docs = result.get("docs", [])
+    docs_raw = fetch_all_candidates(api)
+    seen_doc_ids: set[str] = set()
+    docs = []
+    for d in docs_raw:
+        did = str(d.get("ad_id"))
+        if did not in seen_doc_ids:
+            seen_doc_ids.add(did)
+            docs.append(d)
 
     candidates = [
         ad for ad in docs
@@ -147,6 +174,12 @@ def run() -> None:
                     entry["description"] = desc
                     entry["flags"] = flag_keywords(desc)
                     entry["specifications"] = detail.get("specifications", {})
+                    entry["equipment"] = detail.get("equipment", [])
+                    if not desc:
+                        # Diagnostik: beskrivningen kom tom - spara vilka fält
+                        # som FAKTISKT extraherades, så vi kan se om
+                        # sidstrukturen har ändrats för just den här typen av annons.
+                        entry["debug_detail_keys"] = sorted(detail.keys())
                     detail_fetch_count += 1
                     time.sleep(DETAIL_FETCH_DELAY_SEC)
                 except Exception as e:  # nätverksfel/sidan ändrad etc - visa men krascha inte
@@ -188,6 +221,15 @@ def _format_entry(e: dict, heading_level: str) -> list[str]:
     elif e.get("description"):
         snippet = e["description"][:500].replace("\n", " ")
         lines.append(f"> {snippet}{'...' if len(e['description']) > 500 else ''}")
+    elif "description" in e:
+        lines.append("_(ingen fritextbeskrivning hittades i annonsen)_")
+    specs = e.get("specifications") or {}
+    if specs:
+        spec_str = " | ".join(f"{k}: {v}" for k, v in list(specs.items())[:8])
+        lines.append(f"Specifikationer: {spec_str}")
+    equip = e.get("equipment") or []
+    if equip:
+        lines.append(f"Utrustning: {', '.join(equip[:10])}{' ...' if len(equip) > 10 else ''}")
     lines.append(f"[Öppna annons]({e['url']})")
     lines.append("")
     return lines
