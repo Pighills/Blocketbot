@@ -1,0 +1,3 @@
+24301114: status=200 final_url=https://www.blocket.se/mobility/item/24301114 len=399669
+  -> mojlig 'borttagen'-signal: 'inte längre tillgänglig'
+24665641: status=200 final_url=https://www.blocket.se/mobility/item/24665641 len=406276
