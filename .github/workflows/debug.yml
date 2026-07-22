@@ -1,0 +1,36 @@
+name: Debug ad-sida
+
+on:
+  workflow_dispatch:
+    inputs:
+      ad_id:
+        description: "Annons-id att undersöka"
+        required: false
+        default: "24301114"
+
+permissions:
+  contents: write
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install httpx
+
+      - name: Run diagnostic
+        run: python scripts/debug_ad.py "${{ github.event.inputs.ad_id }}"
+
+      - name: Commit debug output
+        run: |
+          git config user.name "blocket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/debug/
+          git diff --cached --quiet || git commit -m "Debug-dump for annons ${{ github.event.inputs.ad_id }}"
+          git push
