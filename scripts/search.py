@@ -20,8 +20,50 @@ import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
+import httpx
+from bs4 import BeautifulSoup
 from blocket_api import BlocketAPI, CarModel, CarSortOrder, Location
 from blocket_api.ad_parser import CarAd
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0 Safari/537.36"
+)
+
+
+def fetch_description(ad_id: str) -> str | None:
+    """Hämtar bara fritextbeskrivningen direkt via egen HTML-tolkning.
+
+    blocket_api-bibliotekets inbyggda parser letar efter en äldre
+    sidstruktur och hittar inte längre beskrivningen. Blockets nuvarande
+    sida har den under <h2>Beskrivning</h2> följt av en div med
+    data-testid="expandable-section" (bekräftat via manuell inspektion
+    2026-07-22 - kan behöva justeras om Blocket gör om sidan igen)."""
+    url = f"https://www.blocket.se/mobility/item/{ad_id}"
+    try:
+        resp = httpx.get(
+            url, headers={"User-Agent": USER_AGENT}, follow_redirects=True, timeout=20
+        )
+        resp.raise_for_status()
+    except Exception:
+        return None
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    heading = soup.find(
+        "h2", string=lambda s: bool(s) and "beskrivning" in s.lower()
+    )
+    if not heading:
+        return None
+    section = heading.find_parent("section") or heading.parent
+    if not section:
+        return None
+    text_div = section.find(
+        "div", class_=lambda c: bool(c) and "whitespace-pre-wrap" in c
+    )
+    if not text_div:
+        return None
+    text = text_div.get_text(separator="\n", strip=True)
+    return text or None
 
 # ---------------------------------------------------------------------------
 # Sökkriterier - justera här om du vill ändra pris/år/modeller/område
@@ -170,16 +212,15 @@ def run() -> None:
             if detail_fetch_count < MAX_DETAIL_FETCHES:
                 try:
                     detail = api.get_ad(CarAd(int(ad_id)))
-                    desc = detail.get("description", "") or ""
-                    entry["description"] = desc
-                    entry["flags"] = flag_keywords(desc)
                     entry["specifications"] = detail.get("specifications", {})
                     entry["equipment"] = detail.get("equipment", [])
+
+                    desc = fetch_description(ad_id) or ""
+                    entry["description"] = desc
+                    entry["flags"] = flag_keywords(desc)
                     if not desc:
-                        # Diagnostik: beskrivningen kom tom - spara vilka fält
-                        # som FAKTISKT extraherades, så vi kan se om
-                        # sidstrukturen har ändrats för just den här typen av annons.
                         entry["debug_detail_keys"] = sorted(detail.keys())
+
                     detail_fetch_count += 1
                     time.sleep(DETAIL_FETCH_DELAY_SEC)
                 except Exception as e:  # nätverksfel/sidan ändrad etc - visa men krascha inte
