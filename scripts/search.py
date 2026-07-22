@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-Blocket Volvo V50/V60/V70-bevakning.
+Blocket Volvo V60-bevakning.
 
-Söker begagnade Volvo V50/V60/V70 inom valt område och prisklass, hämtar
-annonstext för NYA träffar (jämfört med förra körningen), flaggar kända
-riskord, och skriver resultat till results/latest.json + results/latest.md.
+Söker begagnade Volvo V60 inom valt område och prisklass, hämtar
+annonstext, flaggar kända riskord, och skriver resultat till
+results/latest.json + results/latest.md. Detaljer cachas per annons-id
+så samma annons inte hämtas i onödan flera körningar i rad.
 
 Körs via GitHub Actions på schema, se .github/workflows/search.yml.
 Bygger på det öppna biblioteket "blocket_api" (pip install blocket-api),
@@ -25,27 +26,36 @@ from blocket_api.ad_parser import CarAd
 # ---------------------------------------------------------------------------
 # Sökkriterier - justera här om du vill ändra pris/år/modeller/område
 # ---------------------------------------------------------------------------
-TARGET_MODELS = {"V50", "V60", "V70"}
-PRICE_TO = 100_000
-YEAR_TO = 2018
+TARGET_MODELS = {"V60"}
+PRICE_TO = 120_000
+YEAR_TO = 2019
 
-# Orter vi räknar som "inom ca en timme från Upplands-Bro" (inkl. gränsfall)
-ALLOWED_PLACES = {
+# Hela Stockholms län räknas (alla kommuner/tätorter), oavsett var i länet.
+STOCKHOLM_LAN_PLACES = {
     "Stockholm", "Sundbyberg", "Solna", "Järfälla", "Upplands Väsby",
-    "Sollentuna", "Sigtuna", "Märsta", "Ekerö", "Vallentuna",
-    "Upplands-Bro", "Kungsängen", "Bro",
-    "Håbo", "Bålsta", "Enköping", "Knivsta", "Uppsala",
-    "Södertälje", "Norrtälje",
-    "Strängnäs", "Västerås",
+    "Sollentuna", "Sigtuna", "Märsta", "Rosersberg", "Ekerö",
+    "Vallentuna", "Upplands-Bro", "Kungsängen", "Bro",
+    "Södertälje", "Norrtälje", "Botkyrka", "Tumba", "Danderyd",
+    "Haninge", "Handen", "Huddinge", "Segeltorp", "Flemingsberg",
+    "Lidingö", "Nacka", "Nykvarn", "Nynäshamn", "Salem", "Rönninge",
+    "Tyresö", "Täby", "Vaxholm", "Värmdö", "Gustavsberg", "Österåker",
+    "Åkersberga",
 }
+# Från Uppsala län räknar vi bara dessa två orter denna gång.
+UPPSALA_ALLOWED_PLACES = {"Enköping", "Uppsala"}
 
-# Län vi söker brett inom (filtreras sen ner till ALLOWED_PLACES ovan)
+# Län vi söker brett inom (filtreras sen ner enligt ovan)
 SEARCH_LOCATIONS = [
     Location.STOCKHOLM,
     Location.UPPSALA,
-    Location.SODERMANLAND,
-    Location.VASTMANLAND,
 ]
+
+
+def is_allowed_place(place: str | None) -> bool:
+    if not place:
+        return False
+    return place in STOCKHOLM_LAN_PLACES or place in UPPSALA_ALLOWED_PLACES
+
 
 # Ord vi flaggar i annonstexten - bara en varningsflagga, ingen fulldiagnos
 RISK_KEYWORDS = [
@@ -53,7 +63,7 @@ RISK_KEYWORDS = [
     "kompressor", "krockskadad", "ej godkänd", "anmärkning",
 ]
 
-MAX_DETAIL_FETCHES = 15  # var snäll mot blocket.se - hämta inte fulltext på för många per körning
+MAX_DETAIL_FETCHES = 60  # räcker för ett fullt djupdyk över ~50 träffar
 DETAIL_FETCH_DELAY_SEC = 1.5
 
 RESULTS_DIR = Path("results")
@@ -97,7 +107,7 @@ def run() -> None:
 
     candidates = [
         ad for ad in docs
-        if ad.get("model") in TARGET_MODELS and ad.get("location") in ALLOWED_PLACES
+        if ad.get("model") in TARGET_MODELS and is_allowed_place(ad.get("location"))
     ]
 
     new_cache: dict = {}
@@ -111,12 +121,18 @@ def run() -> None:
             "ad_id": ad_id,
             "heading": ad.get("heading"),
             "model": ad.get("model"),
+            "model_specification": ad.get("model_specification"),
             "year": ad.get("year"),
             "price": (ad.get("price") or {}).get("amount"),
+            "mileage": ad.get("mileage"),
+            "mileage_unit": ad.get("mileage_unit"),
+            "transmission": ad.get("transmission"),
+            "fuel": ad.get("fuel"),
             "location": ad.get("location"),
             "regno": ad.get("regno"),
             "seller": ad.get("dealer_segment") or "Privat",
             "url": ad.get("canonical_url"),
+            "published_ts": ad.get("timestamp"),
         }
 
         if already_cached:
@@ -158,10 +174,13 @@ def run() -> None:
 
 def _format_entry(e: dict, heading_level: str) -> list[str]:
     lines = [f"{heading_level} {e['heading']} – {e['price']} kr – {e['location']}"]
+    mil = e.get("mileage")
+    mil_str = f"{mil} mil" if mil is not None else "okänt miltal"
     lines.append(
-        f"Modell: {e['model']} | År: {e['year']} | "
-        f"Regnr: {e.get('regno', '–')} | Säljare: {e['seller']}"
+        f"Modell: {e['model']} | År: {e['year']} | {mil_str} | "
+        f"{e.get('transmission', '–')} | {e.get('fuel', '–')}"
     )
+    lines.append(f"Regnr: {e.get('regno', '–')} | Säljare: {e['seller']}")
     if e.get("flags"):
         lines.append(f"⚠️ **Flaggade ord:** {', '.join(e['flags'])}")
     if e.get("fetch_error"):
@@ -180,7 +199,7 @@ def write_markdown(entries: list[dict]) -> None:
     others = [e for e in entries if not e["is_new"]]
 
     lines = [
-        "# Blocket V50/V60/V70-bevakning",
+        "# Blocket V60-bevakning",
         f"_Senast körd: {now} – {len(entries)} matchande annonser totalt_",
         "",
     ]
