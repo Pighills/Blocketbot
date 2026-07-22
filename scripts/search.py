@@ -57,22 +57,22 @@ MAX_DETAIL_FETCHES = 15  # var snäll mot blocket.se - hämta inte fulltext på 
 DETAIL_FETCH_DELAY_SEC = 1.5
 
 RESULTS_DIR = Path("results")
-STATE_FILE = RESULTS_DIR / "seen_ids.json"
+CACHE_FILE = RESULTS_DIR / "cache.json"  # ad_id -> full enriched entry, persisted between körningar
 OUT_JSON = RESULTS_DIR / "latest.json"
 OUT_MD = RESULTS_DIR / "latest.md"
 ERROR_MD = RESULTS_DIR / "last_error.md"
 
 
-def load_seen() -> set[str]:
-    if STATE_FILE.exists():
-        return set(json.loads(STATE_FILE.read_text(encoding="utf-8")))
-    return set()
+def load_cache() -> dict:
+    if CACHE_FILE.exists():
+        return json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    return {}
 
 
-def save_seen(seen: set[str]) -> None:
+def save_cache(cache: dict) -> None:
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    STATE_FILE.write_text(
-        json.dumps(sorted(seen), ensure_ascii=False, indent=2), encoding="utf-8"
+    CACHE_FILE.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
 
@@ -83,7 +83,7 @@ def flag_keywords(text: str) -> list[str]:
 
 def run() -> None:
     api = BlocketAPI()
-    seen = load_seen()
+    cache = load_cache()  # ad_id (str) -> tidigare sparad, fullständig post
 
     result = api.search_car(
         models=[CarModel.VOLVO],
@@ -100,15 +100,14 @@ def run() -> None:
         if ad.get("model") in TARGET_MODELS and ad.get("location") in ALLOWED_PLACES
     ]
 
-    new_ids = {str(ad["ad_id"]) for ad in candidates if str(ad["ad_id"]) not in seen}
-
-    enriched = []
+    new_cache: dict = {}
     detail_fetch_count = 0
+    now_iso = datetime.now(timezone.utc).isoformat()
 
     for ad in candidates:
         ad_id = str(ad["ad_id"])
-        is_new = ad_id in new_ids
-        entry = {
+        already_cached = ad_id in cache
+        basics = {
             "ad_id": ad_id,
             "heading": ad.get("heading"),
             "model": ad.get("model"),
@@ -118,35 +117,61 @@ def run() -> None:
             "regno": ad.get("regno"),
             "seller": ad.get("dealer_segment") or "Privat",
             "url": ad.get("canonical_url"),
-            "is_new": is_new,
         }
 
-        if is_new and detail_fetch_count < MAX_DETAIL_FETCHES:
-            try:
-                detail = api.get_ad(CarAd(int(ad_id)))
-                desc = detail.get("description", "") or ""
-                entry["description"] = desc
-                entry["flags"] = flag_keywords(desc)
-                entry["specifications"] = detail.get("specifications", {})
-                detail_fetch_count += 1
-                time.sleep(DETAIL_FETCH_DELAY_SEC)
-            except Exception as e:  # nätverksfel/sidan ändrad etc - visa men krascha inte
-                entry["fetch_error"] = str(e)
+        if already_cached:
+            # Behåll tidigare hämtad annonstext/flaggor - hämta inte igen i onödan
+            entry = {**cache[ad_id], **basics, "is_new": False}
+        else:
+            entry = {**basics, "is_new": True, "first_seen_at": now_iso}
+            if detail_fetch_count < MAX_DETAIL_FETCHES:
+                try:
+                    detail = api.get_ad(CarAd(int(ad_id)))
+                    desc = detail.get("description", "") or ""
+                    entry["description"] = desc
+                    entry["flags"] = flag_keywords(desc)
+                    entry["specifications"] = detail.get("specifications", {})
+                    detail_fetch_count += 1
+                    time.sleep(DETAIL_FETCH_DELAY_SEC)
+                except Exception as e:  # nätverksfel/sidan ändrad etc - visa men krascha inte
+                    entry["fetch_error"] = str(e)
 
-        enriched.append(entry)
+        new_cache[ad_id] = entry
 
-    seen |= {str(ad["ad_id"]) for ad in candidates}
-    save_seen(seen)
+    # new_cache innehåller bara ANNONSER SOM FORTFARANDE MATCHAR just nu -
+    # sålda/borttagna annonser faller bort automatiskt här.
+    save_cache(new_cache)
+
+    entries = list(new_cache.values())
+    entries.sort(key=lambda e: (not e["is_new"], e.get("price") or 0))
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(
-        json.dumps(enriched, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    write_markdown(enriched)
+    write_markdown(entries)
 
     if ERROR_MD.exists():
         ERROR_MD.unlink()
+
+
+def _format_entry(e: dict, heading_level: str) -> list[str]:
+    lines = [f"{heading_level} {e['heading']} – {e['price']} kr – {e['location']}"]
+    lines.append(
+        f"Modell: {e['model']} | År: {e['year']} | "
+        f"Regnr: {e.get('regno', '–')} | Säljare: {e['seller']}"
+    )
+    if e.get("flags"):
+        lines.append(f"⚠️ **Flaggade ord:** {', '.join(e['flags'])}")
+    if e.get("fetch_error"):
+        lines.append(f"_(kunde inte hämta annonstext: {e['fetch_error']})_")
+    elif e.get("description"):
+        snippet = e["description"][:500].replace("\n", " ")
+        lines.append(f"> {snippet}{'...' if len(e['description']) > 500 else ''}")
+    lines.append(f"[Öppna annons]({e['url']})")
+    lines.append("")
+    return lines
 
 
 def write_markdown(entries: list[dict]) -> None:
@@ -154,38 +179,26 @@ def write_markdown(entries: list[dict]) -> None:
     new_entries = [e for e in entries if e["is_new"]]
     others = [e for e in entries if not e["is_new"]]
 
-    lines = ["# Blocket V50/V60/V70-bevakning", f"_Senast körd: {now}_", ""]
+    lines = [
+        "# Blocket V50/V60/V70-bevakning",
+        f"_Senast körd: {now} – {len(entries)} matchande annonser totalt_",
+        "",
+    ]
 
     if new_entries:
         lines.append(f"## 🆕 Nya sedan senast ({len(new_entries)})")
         lines.append("")
         for e in new_entries:
-            lines.append(f"### {e['heading']} – {e['price']} kr – {e['location']}")
-            lines.append(
-                f"Modell: {e['model']} | År: {e['year']} | "
-                f"Regnr: {e.get('regno', '–')} | Säljare: {e['seller']}"
-            )
-            if e.get("flags"):
-                lines.append(f"⚠️ **Flaggade ord:** {', '.join(e['flags'])}")
-            if e.get("fetch_error"):
-                lines.append(f"_(kunde inte hämta annonstext: {e['fetch_error']})_")
-            elif e.get("description"):
-                snippet = e["description"][:500].replace("\n", " ")
-                lines.append(f"> {snippet}{'...' if len(e['description']) > 500 else ''}")
-            lines.append(f"[Öppna annons]({e['url']})")
-            lines.append("")
+            lines.extend(_format_entry(e, "###"))
     else:
         lines.append("_Inga nya annonser sedan senaste körning._")
         lines.append("")
 
     if others:
-        lines.append(f"## Övriga matchande annonser i din bevakning ({len(others)})")
+        lines.append(f"## Övriga matchande annonser ({len(others)})")
         lines.append("")
         for e in others:
-            lines.append(
-                f"- {e['heading']} – {e['price']} kr – {e['location']} "
-                f"({e['year']}) – [Länk]({e['url']})"
-            )
+            lines.extend(_format_entry(e, "###"))
 
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")
 
