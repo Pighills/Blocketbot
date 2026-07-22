@@ -25,7 +25,7 @@ jobs:
         run: pip install httpx
 
       - name: Run diagnostic
-        run: python scripts/debug_ad.py "${{ github.event.inputs.ad_id }}"
+        run: python scripts/debug_ad.py ${{ github.event.inputs.ad_id }}
 
       - name: Commit debug output
         run: |
