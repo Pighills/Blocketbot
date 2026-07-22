@@ -1,20 +1,24 @@
-# Blocket V50/V60/V70-bevakning
-_Senast körd: 2026-07-22 14:18 UTC – 4 matchande annonser totalt_
+# Blocket V60-bevakning
+_Senast körd: 2026-07-22 14:27 UTC – 4 matchande annonser totalt_
 
 ## 🆕 Nya sedan senast (4)
 
-### Volvo V50 – 34900 kr – Södertälje
-Modell: V50 | År: 2011 | Regnr: GKO651 | Säljare: Företag
-[Öppna annons](https://www.blocket.se/mobility/item/25019326)
+### Volvo V60 – 87000 kr – Åkersberga
+Modell: V60 | År: 2011 | 20500 mil | Automatisk | Diesel
+Regnr: LPX929 | Säljare: Privat
+[Öppna annons](https://www.blocket.se/mobility/item/21426515)
 
-### Volvo V70 – 39999 kr – Kungsängen
-Modell: V70 | År: 2012 | Regnr: XST660 | Säljare: Privat
-[Öppna annons](https://www.blocket.se/mobility/item/24966744)
+### Volvo V60 – 89900 kr – Segeltorp
+Modell: V60 | År: 2015 | 23500 mil | Automatisk | Diesel
+Regnr: FLW636 | Säljare: Företag
+[Öppna annons](https://www.blocket.se/mobility/item/25018541)
 
-### Volvo V70 – 46500 kr – Järfälla
-Modell: V70 | År: 2013 | Regnr: NDU528 | Säljare: Privat
-[Öppna annons](https://www.blocket.se/mobility/item/25012445)
+### Volvo V60 – 104900 kr – Uppsala
+Modell: V60 | År: 2015 | 19787 mil | Automatisk | Diesel
+Regnr: WSJ243 | Säljare: Företag
+[Öppna annons](https://www.blocket.se/mobility/item/24852513)
 
-### Volvo V70 – 59900 kr – Vallentuna
-Modell: V70 | År: 2011 | Regnr: LED561 | Säljare: Företag
-[Öppna annons](https://www.blocket.se/mobility/item/25013523)
+### Volvo V60 – 115000 kr – Lidingö
+Modell: V60 | År: 2014 | 20320 mil | Automatisk | Bensin
+Regnr: PZT757 | Säljare: Privat
+[Öppna annons](https://www.blocket.se/mobility/item/24999957)
