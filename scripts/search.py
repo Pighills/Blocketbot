@@ -31,14 +31,16 @@ USER_AGENT = (
 )
 
 
-def fetch_description(ad_id: str) -> str | None:
-    """Hämtar bara fritextbeskrivningen direkt via egen HTML-tolkning.
+REMOVED_SIGNAL = "annonsen är inte längre tillgänglig"
 
-    blocket_api-bibliotekets inbyggda parser letar efter en äldre
-    sidstruktur och hittar inte längre beskrivningen. Blockets nuvarande
-    sida har den under <h2>Beskrivning</h2> följt av en div med
-    data-testid="expandable-section" (bekräftat via manuell inspektion
-    2026-07-22 - kan behöva justeras om Blocket gör om sidan igen)."""
+
+def fetch_ad_page(ad_id: str) -> dict:
+    """Hämtar annonssidan en gång och avgör dels om den fortfarande finns
+    kvar, dels (om den finns) fritextbeskrivningen.
+
+    Returnerar {"available": bool, "description": str|None}.
+    Om sidan inte går att hämta alls antar vi att den finns kvar (nätverksfel
+    ska inte tolkas som att bilen sålts) och returnerar description=None."""
     url = f"https://www.blocket.se/mobility/item/{ad_id}"
     try:
         resp = httpx.get(
@@ -46,24 +48,32 @@ def fetch_description(ad_id: str) -> str | None:
         )
         resp.raise_for_status()
     except Exception:
-        return None
+        return {"available": True, "description": None}
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = resp.text
+    if REMOVED_SIGNAL in html.lower():
+        return {"available": False, "description": None}
+
+    soup = BeautifulSoup(html, "html.parser")
     heading = soup.find(
         "h2", string=lambda s: bool(s) and "beskrivning" in s.lower()
     )
     if not heading:
-        return None
+        return {"available": True, "description": None}
     section = heading.find_parent("section") or heading.parent
     if not section:
-        return None
+        return {"available": True, "description": None}
     text_div = section.find(
         "div", class_=lambda c: bool(c) and "whitespace-pre-wrap" in c
     )
     if not text_div:
-        return None
+        return {"available": True, "description": None}
     text = text_div.get_text(separator="\n", strip=True)
-    return text or None
+    return {"available": True, "description": text or None}
+
+
+def has_tow_hitch(equipment: list) -> bool:
+    return any("dragkrok" in str(item).lower() for item in (equipment or []))
 
 # ---------------------------------------------------------------------------
 # Sökkriterier - justera här om du vill ändra pris/år/modeller/område
@@ -206,19 +216,6 @@ def run() -> None:
 
         if already_cached:
             entry = {**cache[ad_id], **basics, "is_new": False}
-            # Om ett tidigare försök inte fick med beskrivningen (t.ex. innan
-            # parsern fixades), försök hämta bara den - inom samma budget.
-            if not entry.get("description") and detail_fetch_count < MAX_DETAIL_FETCHES:
-                try:
-                    desc = fetch_description(ad_id) or ""
-                    if desc:
-                        entry["description"] = desc
-                        entry["flags"] = flag_keywords(desc)
-                        entry.pop("debug_detail_keys", None)
-                    detail_fetch_count += 1
-                    time.sleep(DETAIL_FETCH_DELAY_SEC)
-                except Exception:
-                    pass
         else:
             entry = {**basics, "is_new": True, "first_seen_at": now_iso}
             if detail_fetch_count < MAX_DETAIL_FETCHES:
@@ -226,17 +223,27 @@ def run() -> None:
                     detail = api.get_ad(CarAd(int(ad_id)))
                     entry["specifications"] = detail.get("specifications", {})
                     entry["equipment"] = detail.get("equipment", [])
-
-                    desc = fetch_description(ad_id) or ""
-                    entry["description"] = desc
-                    entry["flags"] = flag_keywords(desc)
-                    if not desc:
-                        entry["debug_detail_keys"] = sorted(detail.keys())
-
-                    detail_fetch_count += 1
-                    time.sleep(DETAIL_FETCH_DELAY_SEC)
-                except Exception as e:  # nätverksfel/sidan ändrad etc - visa men krascha inte
+                except Exception as e:
                     entry["fetch_error"] = str(e)
+
+        entry["has_tow_hitch"] = has_tow_hitch(entry.get("equipment"))
+
+        # Verifiera ALLTID tillgänglighet (oavsett cachad eller ny) - annonser
+        # kan säljas/tas bort utan att försvinna ur sökresultaten direkt.
+        # Samma anrop hämtar samtidigt beskrivningen om den saknas.
+        if detail_fetch_count < MAX_DETAIL_FETCHES:
+            page = fetch_ad_page(ad_id)
+            detail_fetch_count += 1
+            time.sleep(DETAIL_FETCH_DELAY_SEC)
+            if not page["available"]:
+                continue  # annonsen är borttagen/såld - hoppa helt, lägg inte i new_cache
+            if not entry.get("description") and page["description"]:
+                entry["description"] = page["description"]
+                entry["flags"] = flag_keywords(page["description"])
+                entry.pop("debug_detail_keys", None)
+            if "description" not in entry:
+                entry["description"] = ""
+                entry["flags"] = []
 
         new_cache[ad_id] = entry
 
@@ -245,7 +252,7 @@ def run() -> None:
     save_cache(new_cache)
 
     entries = list(new_cache.values())
-    entries.sort(key=lambda e: (not e["is_new"], e.get("price") or 0))
+    entries.sort(key=lambda e: (not e["is_new"], not e.get("has_tow_hitch"), e.get("price") or 0))
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(
@@ -259,7 +266,8 @@ def run() -> None:
 
 
 def _format_entry(e: dict, heading_level: str) -> list[str]:
-    lines = [f"{heading_level} {e['heading']} – {e['price']} kr – {e['location']}"]
+    hitch = " 🔗 DRAGKROK" if e.get("has_tow_hitch") else ""
+    lines = [f"{heading_level} {e['heading']} – {e['price']} kr – {e['location']}{hitch}"]
     mil = e.get("mileage")
     mil_str = f"{mil} mil" if mil is not None else "okänt miltal"
     lines.append(
