@@ -47,7 +47,8 @@
       "Registreringsdatum": "2014-10-28",
       "Antal ägare": "2",
       "Försäljningsform": "Begagnad bil till salu"
-    }
+    },
+    "has_tow_hitch": false
   },
   "21426515": {
     "ad_id": "21426515",
@@ -101,7 +102,8 @@
       "Registreringsdatum": "2011-05-20",
       "Antal ägare": "4",
       "Försäljningsform": "Begagnad bil till salu"
-    }
+    },
+    "has_tow_hitch": false
   },
   "24999957": {
     "ad_id": "24999957",
@@ -151,7 +153,8 @@
       "Registreringsdatum": "2013-10-30",
       "Antal ägare": "14",
       "Försäljningsform": "Begagnad bil till salu"
-    }
+    },
+    "has_tow_hitch": false
   },
   "24852513": {
     "ad_id": "24852513",
@@ -196,7 +199,8 @@
       "Chassinummer": "YV1FW848BF1228639",
       "Registreringsdatum": "2014-07-07",
       "Försäljningsform": "Begagnad bil till salu"
-    }
+    },
+    "has_tow_hitch": false
   },
   "24501616": {
     "ad_id": "24501616",
@@ -259,7 +263,8 @@
       "Xenonstrålkastare",
       "Bluetooth",
       "Motorvärmare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24934255": {
     "ad_id": "24934255",
@@ -349,7 +354,8 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24929083": {
     "ad_id": "24929083",
@@ -444,7 +450,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24685722": {
     "ad_id": "24685722",
@@ -525,7 +532,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24685697": {
     "ad_id": "24685697",
@@ -602,7 +610,8 @@
       "Delskinn",
       "Motorvärmare",
       "Soltak/Glastak"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24874690": {
     "ad_id": "24874690",
@@ -680,7 +689,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24589185": {
     "ad_id": "24589185",
@@ -769,7 +779,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24865276": {
     "ad_id": "24865276",
@@ -873,7 +884,8 @@
       "Uppvärmda spolare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "22939811": {
     "ad_id": "22939811",
@@ -989,7 +1001,8 @@
       "Blank list runt sidorutor",
       "DSTC- Antisladdsystem",
       "Skyddsnät i nylon"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24811675": {
     "ad_id": "24811675",
@@ -1069,7 +1082,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24314067": {
     "ad_id": "24314067",
@@ -1161,7 +1175,8 @@
       "Taklucka",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24784125": {
     "ad_id": "24784125",
@@ -1255,7 +1270,8 @@
       "Trötthetsvarnare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24778102": {
     "ad_id": "24778102",
@@ -1362,7 +1378,8 @@
       "Motorvärmare",
       "Parkeringssensorer",
       "Parkeringssensor bak"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24766617": {
     "ad_id": "24766617",
@@ -1462,7 +1479,8 @@
       "title",
       "transmission",
       "url"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24764324": {
     "ad_id": "24764324",
@@ -1544,7 +1562,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "22546602": {
     "ad_id": "22546602",
@@ -1610,7 +1629,8 @@
       "Bluetooth Audio",
       "Dragkrok, fast",
       "Svart innertak"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "23819386": {
     "ad_id": "23819386",
@@ -1709,7 +1729,8 @@
       "title",
       "transmission",
       "url"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "13374357": {
     "ad_id": "13374357",
@@ -1809,7 +1830,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "21434629": {
     "ad_id": "21434629",
@@ -1904,7 +1926,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "23550666": {
     "ad_id": "23550666",
@@ -1991,7 +2014,8 @@
       "Taklucka",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24665641": {
     "ad_id": "24665641",
@@ -2089,7 +2113,8 @@
       "Tonade rutor",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24629174": {
     "ad_id": "24629174",
@@ -2192,7 +2217,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24594591": {
     "ad_id": "24594591",
@@ -2266,7 +2292,8 @@
       "Stöldlarm",
       "Svensksåld",
       "Sätesvärme (fram)"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "21488450": {
     "ad_id": "21488450",
@@ -2353,7 +2380,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "18240522": {
     "ad_id": "18240522",
@@ -2464,7 +2492,8 @@
       "Tonade rutor",
       "Sätesvärme bak",
       "Sätesvärme fram"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24542384": {
     "ad_id": "24542384",
@@ -2548,7 +2577,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24541278": {
     "ad_id": "24541278",
@@ -2629,7 +2659,8 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24540424": {
     "ad_id": "24540424",
@@ -2721,7 +2752,8 @@
       "Tonade rutor",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24515546": {
     "ad_id": "24515546",
@@ -2819,7 +2851,8 @@
       "USB-uttag",
       "Yttertemperaturmätare",
       "V"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24502257": {
     "ad_id": "24502257",
@@ -2905,7 +2938,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24496453": {
     "ad_id": "24496453",
@@ -2983,7 +3017,8 @@
       "Färddator",
       "12V-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "23169086": {
     "ad_id": "23169086",
@@ -3057,7 +3092,8 @@
       "Regnsensor",
       "Svart innertak",
       "Kamrem bytt 31797km - 2026-02-09"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24463840": {
     "ad_id": "24463840",
@@ -3148,7 +3184,8 @@
       "Uppvärmda spolare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "22024646": {
     "ad_id": "22024646",
@@ -3238,7 +3275,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24462440": {
     "ad_id": "24462440",
@@ -3317,7 +3355,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "22735469": {
     "ad_id": "22735469",
@@ -3393,7 +3432,8 @@
       "Rattvärme",
       "Regnsensor",
       "Komplett ifylld servicebok"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "22184216": {
     "ad_id": "22184216",
@@ -3470,7 +3510,8 @@
       "4WD",
       "PDC",
       "Cruise Control"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24419131": {
     "ad_id": "24419131",
@@ -3558,7 +3599,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "21917541": {
     "ad_id": "21917541",
@@ -3645,7 +3687,8 @@
       "Uppvärmda säten, fram",
       "Xenonljus",
       "Dragkrok, avtagbar/svängbar"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24387800": {
     "ad_id": "24387800",
@@ -3686,7 +3729,8 @@
       "Avgiftsklass": "Personbil",
       "Försäljningsform": "Begagnad bil till salu"
     },
-    "equipment": []
+    "equipment": [],
+    "has_tow_hitch": false
   },
   "24163540": {
     "ad_id": "24163540",
@@ -3760,7 +3804,8 @@
       "Svensksåld",
       "USB-ingång",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24347809": {
     "ad_id": "24347809",
@@ -3847,7 +3892,8 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24316701": {
     "ad_id": "24316701",
@@ -3930,7 +3976,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24303926": {
     "ad_id": "24303926",
@@ -4034,7 +4081,8 @@
       "Uppvärmda spolare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24204453": {
     "ad_id": "24204453",
@@ -4122,7 +4170,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24146515": {
     "ad_id": "24146515",
@@ -4204,7 +4253,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "24131654": {
     "ad_id": "24131654",
@@ -4286,7 +4336,8 @@
       "Klimatanläggning",
       "AUX-ingång",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "24066142": {
     "ad_id": "24066142",
@@ -4373,7 +4424,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "23976672": {
     "ad_id": "23976672",
@@ -4453,7 +4505,8 @@
       "Trötthetsvarnare",
       "Uppvärmda säten, fram",
       "Åretruntdäck på fälg"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "23939848": {
     "ad_id": "23939848",
@@ -4538,7 +4591,8 @@
       "Xenon (halvljus)",
       "Xenon (helljus)",
       "Xenon Strålkastare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "23907790": {
     "ad_id": "23907790",
@@ -4620,7 +4674,8 @@
       "AUX-ingång",
       "CD-spelare",
       "Elektriska fönster"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "23906890": {
     "ad_id": "23906890",
@@ -4707,7 +4762,8 @@
       "Sätesvärme (fram)",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": false
   },
   "23857485": {
     "ad_id": "23857485",
@@ -4817,7 +4873,8 @@
       "Parkeringssensor bak",
       "Parkeringssensor fram",
       "Tonade rutor"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "23798751": {
     "ad_id": "23798751",
@@ -4900,7 +4957,8 @@
       "Uppvärmda säten, fram",
       "Xenonljus",
       "Bi-xenon-strålkastare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "15089677": {
     "ad_id": "15089677",
@@ -4991,7 +5049,8 @@
       "Trötthetsvarnare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "14421534": {
     "ad_id": "14421534",
@@ -5078,7 +5137,8 @@
       "Vi byter in din bil",
       "Garanti 1-3 år (fråga säljaren)",
       "Hemleverans från 995kr"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "23594851": {
     "ad_id": "23594851",
@@ -5186,7 +5246,8 @@
       "Parkeringssensorer",
       "Sommardäck",
       "Vinterdäck"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "23388097": {
     "ad_id": "23388097",
@@ -5287,7 +5348,8 @@
       "Handbroms (elektronisk)",
       "Insynsskydd",
       "Avstängningsbar airbag passagerare"
-    ]
+    ],
+    "has_tow_hitch": true
   },
   "22950619": {
     "ad_id": "22950619",
@@ -5395,6 +5457,7 @@
       "Trötthetsvarnare",
       "USB-uttag",
       "Yttertemperaturmätare"
-    ]
+    ],
+    "has_tow_hitch": true
   }
 }
