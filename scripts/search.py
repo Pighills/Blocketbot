@@ -105,7 +105,7 @@ RISK_KEYWORDS = [
     "kompressor", "krockskadad", "ej godkänd", "anmärkning",
 ]
 
-MAX_DETAIL_FETCHES = 60  # räcker för ett fullt djupdyk över ~50 träffar
+MAX_DETAIL_FETCHES = 70  # racker for ett fullt djupdyk over ~50-65 traffar
 DETAIL_FETCH_DELAY_SEC = 1.5
 
 RESULTS_DIR = Path("results")
@@ -205,8 +205,20 @@ def run() -> None:
         }
 
         if already_cached:
-            # Behåll tidigare hämtad annonstext/flaggor - hämta inte igen i onödan
             entry = {**cache[ad_id], **basics, "is_new": False}
+            # Om ett tidigare försök inte fick med beskrivningen (t.ex. innan
+            # parsern fixades), försök hämta bara den - inom samma budget.
+            if not entry.get("description") and detail_fetch_count < MAX_DETAIL_FETCHES:
+                try:
+                    desc = fetch_description(ad_id) or ""
+                    if desc:
+                        entry["description"] = desc
+                        entry["flags"] = flag_keywords(desc)
+                        entry.pop("debug_detail_keys", None)
+                    detail_fetch_count += 1
+                    time.sleep(DETAIL_FETCH_DELAY_SEC)
+                except Exception:
+                    pass
         else:
             entry = {**basics, "is_new": True, "first_seen_at": now_iso}
             if detail_fetch_count < MAX_DETAIL_FETCHES:
