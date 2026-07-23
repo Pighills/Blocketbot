@@ -1,7 +1,16 @@
 # Blocket V60-bevakning
-_Senast körd: 2026-07-22 19:20 UTC – 63 matchande annonser totalt_
+_Senast körd: 2026-07-23 08:36 UTC – 64 matchande annonser totalt_
 
-_Inga nya annonser sedan senaste körning._
+## 🆕 Nya sedan senast (1)
+
+### Volvo V60 – 109900 kr – Täby
+Modell: V60 | År: 2014 | 22878 mil | Automatisk | Diesel
+Regnr: NZO154 | Säljare: Privat
+⚠️ **Flaggade ord:** kamrem
+> Fin V60 D4 säljes! Nyservad med Volvo original reservdelar: Olja (Castrol) Oljefilter Kupéfilter Nytt bromsok vänster bak, tillsammans med nya bromsskivor och bromsbelägg på båda sidor bak byttes ca 10 mil sedan. I övrigt fullstämplad servicebok. Kamrem bytt vid 18k mil. 2 nycklar, sommar och vinterdäck med fina mönster båda på aluminiumfälgar. Finns en liten spricka i mätarhuset. Någon skavank går att hitta, men väldigt fin i övrigt! Fler bilder går att ordna. Väl mött!
+Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2014 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 163 Hk | Motorvolym: 2 L | Miltal: 22 878 mil
+Utrustning: Multifunktionsratt, ABS, Sidoairbags, El-sidospeglar m. värme, Kurvljus, Antispinn, ESC, Takrails, Automatisk start/stopp, Bluetooth ...
+[Öppna annons](https://www.blocket.se/mobility/item/25031847)
 
 ## Övriga matchande annonser (63)
 
