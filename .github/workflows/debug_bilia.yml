@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: pip install httpx
       - name: Run diagnostic
-        run: python scripts/debug_bilia_params.py
+        run: python scripts/debug_vcr.py
       - name: Commit debug output
         run: |
           git config user.name "blocket-bot"
