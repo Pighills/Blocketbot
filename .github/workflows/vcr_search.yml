@@ -1,0 +1,29 @@
+name: Volvo Car Retail-bevakning
+
+on:
+  schedule:
+    - cron: "0 7 * * *"  # ytterligare 30 min efter Bilia, undviker resurskrock
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install httpx beautifulsoup4
+      - name: Run search
+        run: python scripts/vcr_search.py
+      - name: Commit and push results
+        run: |
+          git config user.name "blocket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/
+          git diff --cached --quiet || git commit -m "Uppdaterade Volvo Car Retail-resultat $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
