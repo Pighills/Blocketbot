@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """
-Bilia Volvo V60-bevakning.
+Bilia kombi-bevakning (bred, flera märken).
 
-Söker begagnade Volvo V60 hos Bilia (etablerad handlare - "kvalitetssäkrade"
-bilar), filtrerar på pris, och hämtar detaljerad, strukturerad data per bil
-via Bilias inbäddade Schema.org JSON-LD (pris, miltal, motor, VIN,
-återförsäljarens geo-koordinater m.m.) - ingen skör HTML-skrapning behövs
-för detaljsidan, bara för listkorten.
+Söker begagnade kombi/stationsvagnar hos Bilia över flera märken
+(Volvo V40/60/70/90, samt Kombi/Variant/Touring/Avant-varianter hos
+VW/Skoda/Audi/BMW/Mercedes/Toyota), filtrerar på pris, och hämtar
+detaljerad, strukturerad data per bil via Bilias inbäddade Schema.org
+JSON-LD (pris, miltal, motor, VIN, återförsäljarens adress m.m.).
+
+Anläggningsfilter (t.ex. bara Bro) gick inte att göra tillförlitligt -
+Bilias anläggnings-/biltyp-filter är JS-widgets som inte slår igenom på
+ett vanligt GET-anrop - så det här är brett/nationellt istället, per
+överenskommelse. Kolla Bro:s lokala lager manuellt vid behov.
 
 Körs via GitHub Actions på schema, se .github/workflows/bilia_search.yml.
 """
@@ -28,7 +33,18 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/125.0 Safari/537.36"
 )
 BASE = "https://www.bilia.se"
-SEARCH_URL = f"{BASE}/bilar/sok-bil/volvo/v60/"
+
+# Márken som rimligen har kombi/stationsvagn-varianter i den här prisklassen.
+# Facility-filter (Bro) gick inte att göra tillförlitligt (Bilias anläggnings-
+# och biltyp-filter är JS-widgets, slår inte igenom på ett vanligt GET-anrop)
+# - så det här är brett/nationellt istället, enligt överenskommelse.
+BRANDS = ["volvo", "volkswagen", "skoda", "audi", "bmw", "mercedes-benz", "toyota"]
+
+# Textledtrådar för kombi/stationsvagn per märkes namnkonvention -
+# grovfilter innan detaljsida hämtas (Volvo V60/V90/V70 behöver ingen
+# ledtråd eftersom de är kombi per definition - de matchas separat nedan)
+KOMBI_HINTS = ["kombi", "sportkombi", "variant", "touring sports", "avant", "estate"]
+VOLVO_WAGON_MODELS = ["V40", "V60", "V70", "V90"]  # Volvos kombimodeller (namnges inte "kombi")
 
 PRICE_TO = 150_000  # Antons uttalade tak för Bilia specifikt (annan klass än Blocket-taket)
 MAX_DETAIL_FETCHES = 40
@@ -122,16 +138,29 @@ def get_meta_description(html: str) -> str:
 
 
 def fetch_all_cards() -> list[dict]:
-    resp = fetch(SEARCH_URL)
-    resp.raise_for_status()
-    return parse_search_cards(resp.text)
+    all_cards = []
+    for brand in BRANDS:
+        resp = fetch(f"{BASE}/bilar/sok-bil/{brand}/")
+        if resp.status_code != 200:
+            continue
+        all_cards.extend(parse_search_cards(resp.text))
+        time.sleep(0.5)
+    return all_cards
+
+
+def is_kombi(card: dict) -> bool:
+    text = f"{card.get('heading','')} {card.get('trim','')}".lower()
+    if any(model.lower() in text for model in VOLVO_WAGON_MODELS) and "cross country" not in text:
+        # V40/60/70/90 ar kombi, men "Cross Country"-varianter racknas som CUV/SUV-liknande, inte ren kombi
+        return True
+    return any(hint in text for hint in KOMBI_HINTS)
 
 
 def run() -> None:
     cache = load_cache()
     cards = fetch_all_cards()
 
-    candidates = [c for c in cards if c.get("price") is not None and c["price"] <= PRICE_TO]
+    candidates = [c for c in cards if c.get("price") is not None and c["price"] <= PRICE_TO and is_kombi(c)]
 
     new_cache: dict = {}
     detail_fetch_count = 0
@@ -196,7 +225,7 @@ def write_markdown(entries: list[dict]) -> None:
     others = [e for e in entries if not e.get("is_new")]
 
     lines = [
-        "# Bilia V60-bevakning",
+        "# Bilia kombi-bevakning (flera märken)",
         f"_Senast körd: {now} – {len(entries)} matchande bilar (under {PRICE_TO:,} kr) totalt_".replace(",", " "),
         "",
     ]
