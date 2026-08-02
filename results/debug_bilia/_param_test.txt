@@ -1,0 +1,10 @@
+200 | len= 339955 | kombi-forekomster= 12 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/kombi/ | https://www.bilia.se/bilar/sok-bil/kombi/
+200 | len= 482992 | kombi-forekomster=  6 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/?biltyp=kombi | https://www.bilia.se/bilar/sok-bil/?biltyp=kombi
+200 | len= 482996 | kombi-forekomster=  6 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/?bodyType=kombi | https://www.bilia.se/bilar/sok-bil/?bodyType=kombi
+200 | len= 482992 | kombi-forekomster=  6 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/?kaross=kombi | https://www.bilia.se/bilar/sok-bil/?kaross=kombi
+200 | len= 482992 | kombi-forekomster=  4 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/?facility=bro | https://www.bilia.se/bilar/sok-bil/?facility=bro
+200 | len= 482996 | kombi-forekomster=  4 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/?anlaggning=bro | https://www.bilia.se/bilar/sok-bil/?anlaggning=bro
+200 | len= 483038 | kombi-forekomster=  4 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/?anlaggning=bilia-outlet-bilhall-bro | https://www.bilia.se/bilar/sok-bil/?anlaggning=bilia-outlet-bilhall-bro
+200 | len= 483722 | kombi-forekomster=  4 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/volvo/v60/?facility=bro | https://www.bilia.se/bilar/sok-bil/volvo/v60/?facility=bro
+200 | len= 339939 | kombi-forekomster=  4 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/bro/ | https://www.bilia.se/bilar/sok-bil/bro/
+200 | len= 483042 | kombi-forekomster=  6 | resultat-tal-hittat=? | slutlig-url=https://www.bilia.se/bilar/sok-bil/?priceTo=150000&bodyType=kombi | https://www.bilia.se/bilar/sok-bil/?priceTo=150000&bodyType=kombi
