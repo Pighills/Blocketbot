@@ -10,16 +10,9 @@ USER_AGENT = (
 )
 
 candidates = [
-    "https://www.bilia.se/bilar/sok-bil/kombi/",
-    "https://www.bilia.se/bilar/sok-bil/?biltyp=kombi",
-    "https://www.bilia.se/bilar/sok-bil/?bodyType=kombi",
-    "https://www.bilia.se/bilar/sok-bil/?kaross=kombi",
-    "https://www.bilia.se/bilar/sok-bil/?facility=bro",
-    "https://www.bilia.se/bilar/sok-bil/?anlaggning=bro",
-    "https://www.bilia.se/bilar/sok-bil/?anlaggning=bilia-outlet-bilhall-bro",
-    "https://www.bilia.se/bilar/sok-bil/volvo/v60/?facility=bro",
-    "https://www.bilia.se/bilar/sok-bil/bro/",
-    "https://www.bilia.se/bilar/sok-bil/?priceTo=150000&bodyType=kombi",
+    "https://www.bilia.se/bilar/sok-bil/bro/kombi/",
+    "https://www.bilia.se/bilar/sok-bil/kombi/bro/",
+    "https://www.bilia.se/bilar/sok-bil/bro/?biltyp=kombi",
 ]
 
 for url in candidates:
@@ -41,3 +34,9 @@ for url in candidates:
         out_lines.append(line)
 
 (out_dir / "_param_test.txt").write_text("\n".join(out_lines), encoding="utf-8")
+
+# Spara fullstandig HTML for de tva som redan bekraftats fungera separat, for innehallskoll
+for name, url in [("bro_only", "https://www.bilia.se/bilar/sok-bil/bro/"),
+                   ("kombi_only", "https://www.bilia.se/bilar/sok-bil/kombi/")]:
+    r = httpx.get(url, headers={"User-Agent": USER_AGENT}, follow_redirects=True, timeout=20)
+    (out_dir / f"{name}_raw.html").write_text(r.text, encoding="utf-8")
