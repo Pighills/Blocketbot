@@ -1,5 +1,36 @@
 [
   {
+    "code": "YJD907",
+    "url": "https://www.bilia.se/bilar/sok-bil/toyota/avensis/yjd907/",
+    "heading": "Toyota Avensis Kombi 1.8 Valvematic",
+    "trim": "1.8 Valvematic Active Plus /Dragkrok/Backkamera",
+    "branch": "Bilia Outlet Skövde",
+    "status": "I lager",
+    "fuel": "Bensin",
+    "transmission": "Manuell",
+    "mileage": 16536,
+    "year": 2016,
+    "price": 129900,
+    "is_new": true,
+    "first_seen_at": "2026-08-03T10:10:52.313164+00:00",
+    "has_tow_hitch": true,
+    "equipment_tags": [
+      "Dragkrok",
+      "Mörktonade rutor bak",
+      "USB-ingång",
+      "Backkamera",
+      "Bluetooth"
+    ],
+    "vin": "SB1EG76L60E134725",
+    "body_type": "Kombi",
+    "drivetrain": "Framhjulsdrift",
+    "color": "Grå",
+    "mileage_km": 165360,
+    "engine_power_hp": 147,
+    "engine_displacement_l": 1.798,
+    "dealer_address": "Kåsatorpsvägen 6, 541 34, Skövde"
+  },
+  {
     "code": "NCX017",
     "url": "https://www.bilia.se/bilar/sok-bil/volkswagen/passat/ncx017/",
     "heading": "Volkswagen Passat Variant 2.0 TDI DPF BMT 4Motion",
@@ -11,7 +42,7 @@
     "mileage": 23658,
     "year": 2013,
     "price": 74900,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
     "has_tow_hitch": true,
     "equipment_tags": [
@@ -30,39 +61,6 @@
     "dealer_address": "Kardanvägen 18, 461 29, Trollhättan"
   },
   {
-    "code": "RBB557",
-    "url": "https://www.bilia.se/bilar/sok-bil/volvo/v70/rbb557/",
-    "heading": "Volvo V70 D4",
-    "trim": "D4 R-Design DE 163hk Takl Navi BLIS Drag PDC",
-    "branch": "Bilia Outlet Bilhall Jägersro",
-    "status": "I lager",
-    "fuel": "Diesel",
-    "transmission": "Manuell",
-    "mileage": 20355,
-    "year": 2013,
-    "price": 114900,
-    "is_new": true,
-    "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
-    "has_tow_hitch": true,
-    "equipment_tags": [
-      "Svensksåld",
-      "Sollucka",
-      "glas",
-      "RTI - Navigationssystem",
-      "Dragkrok",
-      "Parkeringshjälp fram/bak",
-      "B"
-    ],
-    "vin": "YV1BW88A1D1271545",
-    "body_type": "Kombi",
-    "drivetrain": "Framhjulsdrift",
-    "color": "Svart",
-    "mileage_km": 203550,
-    "engine_power_hp": 163,
-    "engine_displacement_l": 1.984,
-    "dealer_address": "Agnesfridsvägen 179, 213 75, Malmö"
-  },
-  {
     "code": "NHO909",
     "url": "https://www.bilia.se/bilar/sok-bil/skoda/octavia/nho909/",
     "heading": "Škoda Octavia Kombi 1.4 TSI",
@@ -74,7 +72,7 @@
     "mileage": 15060,
     "year": 2016,
     "price": 129900,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
     "has_tow_hitch": true,
     "equipment_tags": [
@@ -106,7 +104,7 @@
     "mileage": 16768,
     "year": 2014,
     "price": 129900,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
     "has_tow_hitch": true,
     "equipment_tags": [
@@ -137,7 +135,7 @@
     "mileage": 19619,
     "year": 2015,
     "price": 89900,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
     "has_tow_hitch": false,
     "equipment_tags": [
@@ -168,7 +166,7 @@
     "mileage": 9100,
     "year": 2017,
     "price": 99000,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
     "has_tow_hitch": false,
     "equipment_tags": [
@@ -204,7 +202,7 @@
     "mileage": 20255,
     "year": 2018,
     "price": 139900,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
     "has_tow_hitch": false,
     "equipment_tags": [
