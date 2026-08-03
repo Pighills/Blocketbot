@@ -1,8 +1,10 @@
 # Volvo Car Retail - kombi-bevakning
-_Senast körd: 2026-08-02 10:22 UTC – 6 bilar (V60/V60CC/V70/V90/V90CC under 200 000 kr)_
+_Senast körd: 2026-08-03 10:46 UTC – 6 bilar (V60/V60CC/V70/V90/V90CC under 200 000 kr)_
 _📍 = Volvo Car Kungsängen specifikt (din närmaste anläggning)_
 
-## 🆕 Nya sedan senast (6)
+_Inga nya bilar sedan senaste körning._
+
+## Övriga just nu (6)
 
 ### Volvo V60 T3 – 139900 kr – Volvo Car Kungsängen 📍 KUNGSÄNGEN
 T3 Your Momentum | År: 2016 | 15805 mil
