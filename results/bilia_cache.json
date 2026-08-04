@@ -1,35 +1,4 @@
 {
-  "JRW215": {
-    "code": "JRW215",
-    "url": "https://www.bilia.se/bilar/sok-bil/volvo/v40/jrw215/",
-    "heading": "Volvo V40 D2",
-    "trim": "D2 Your Ocean Race 115hk P-värm PDC",
-    "branch": "Bilia Outlet Bilhall Trollhättan",
-    "status": "I lager",
-    "fuel": "Diesel",
-    "transmission": "Manuell",
-    "mileage": 19619,
-    "year": 2015,
-    "price": 89900,
-    "is_new": false,
-    "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
-    "has_tow_hitch": false,
-    "equipment_tags": [
-      "Svensksåld",
-      "Parkeringshjälp bak",
-      "Parkeringsvärmare m tidur",
-      "City Safety generation 2",
-      "Start/Stop f"
-    ],
-    "vin": "YV1MV8481F2231008",
-    "body_type": "Halvkombi",
-    "drivetrain": "Framhjulsdrift",
-    "color": "Silver",
-    "mileage_km": 196190,
-    "engine_power_hp": 115,
-    "engine_displacement_l": 1.56,
-    "dealer_address": "Kardanvägen 18, 461 29, Trollhättan"
-  },
   "NCX017": {
     "code": "NCX017",
     "url": "https://www.bilia.se/bilar/sok-bil/volkswagen/passat/ncx017/",
@@ -159,36 +128,6 @@
     "engine_displacement_l": 1.968,
     "dealer_address": "Kardanvägen 18, 461 29, Trollhättan"
   },
-  "EPT293": {
-    "code": "EPT293",
-    "url": "https://www.bilia.se/bilar/sok-bil/audi/a4/ept293/",
-    "heading": "Audi A4 Avant 2.0 TDI quattro",
-    "trim": "2.0 TDI quattro Proline / Adaptiv Farthållare",
-    "branch": "Bilia Outlet Bilhall Bro",
-    "status": "I lager",
-    "fuel": "Diesel",
-    "transmission": "Automat",
-    "mileage": 20255,
-    "year": 2018,
-    "price": 139900,
-    "is_new": false,
-    "first_seen_at": "2026-08-02T10:28:07.132863+00:00",
-    "has_tow_hitch": false,
-    "equipment_tags": [
-      "Farthållare (adaptiv)",
-      "Fyrhjulsdrift",
-      "Bluetooth",
-      "Keyless Nyckelfri Start"
-    ],
-    "vin": "WAUZZZF48JA177559",
-    "body_type": "Kombi",
-    "drivetrain": "Fyrhjulsdrift",
-    "color": "Vit",
-    "mileage_km": 202550,
-    "engine_power_hp": 190,
-    "engine_displacement_l": 1.968,
-    "dealer_address": "Klövtorpsvägen 1, 197 40, Bro"
-  },
   "YJD907": {
     "code": "YJD907",
     "url": "https://www.bilia.se/bilar/sok-bil/toyota/avensis/yjd907/",
@@ -201,7 +140,7 @@
     "mileage": 16536,
     "year": 2016,
     "price": 129900,
-    "is_new": true,
+    "is_new": false,
     "first_seen_at": "2026-08-03T10:10:52.313164+00:00",
     "has_tow_hitch": true,
     "equipment_tags": [
