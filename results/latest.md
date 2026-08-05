@@ -1,25 +1,32 @@
 # Blocket V60-bevakning
-_Senast körd: 2026-08-04 08:42 UTC – 66 matchande annonser totalt_
+_Senast körd: 2026-08-05 08:42 UTC – 69 matchande annonser totalt_
 
-## 🆕 Nya sedan senast (2)
+## 🆕 Nya sedan senast (3)
 
-### Volvo V60 – 59900 kr – Märsta 🔗 DRAGKROK
-Modell: V60 | År: 2013 | 28500 mil | Automatisk | Diesel
-Regnr: NWD875 | Säljare: Privat
-_(ingen fritextbeskrivning hittades i annonsen)_
-Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2013 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 115 Hk | Motorvolym: 1,6 L | Miltal: 28 500 mil
-Utrustning: Multifunktionsratt, ABS, Sidoairbags, El-sidospeglar m. värme, Antispinn, ESC, Takrails, Automatisk start/stopp, Bluetooth, Servostyrning ...
-[Öppna annons](https://www.blocket.se/mobility/item/25371205)
+### Volvo V60 – 89500 kr – Uppsala 🔗 DRAGKROK
+Modell: V60 | År: 2014 | 17780 mil | Automatisk | Plug-in Diesel
+Regnr: UGL89U | Säljare: Företag
+⚠️ **Flaggade ord:** ägare
+> Nyinkommen Volvo V60 D6 Plug-in Hybrid i mycket fint utförande! En av Volvos mest uppskattade laddhybrider med fyrhjulsdrift och en total effekt på hela 283hk. Samma ägare mellan 2014–2025 samt fullservad hos Volvo. Utrustad med bland annat Summum Paket, Taklucka (öppningsbar), Parkeringsvärmare med tidur & förkonditionering, Avtagbar dragkrok, Navigation, Rattvärme, Helskinn, Bi-Xenon, City Safety 2, Parkeringssensorer fram & bak och 17" Volvo originalfälgar. Senaste service: 2026-07-03 vid 17 ...
+Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2014 | Biltyp: Kombi | Drivmedel: Plug-in Diesel | Effekt: 283 Hk | Motorvolym: 2,4 L | CO₂-utsläpp: 48 g/km
+Utrustning: Summum Paket, Taklucka, Dragkrok, fast, Motorvärmare, Elstol förare, Digitalt mätarhus, GPS, Farthållare, Helklädda lädersäten, ISOFIX-fästen bak ...
+[Öppna annons](https://www.blocket.se/mobility/item/25400203)
 
-### Volvo V60 – 119900 kr – Södertälje
-Modell: V60 | År: 2016 | 25273 mil | Automatisk | Diesel
-Regnr: FYP197 | Säljare: Privat
-> Volvo V60 D3 Geartronic 150hk – 2016 – Svart – Automat 119 900 kr Säljer min svarta Volvo V60 D3 med den trevliga och bränslesnåla 2,0-liters dieselmotorn på 150 hk tillsammans med automatlåda. En bekväm och praktisk kombi som fungerar lika bra till vardags som på längre resor. Bilen är svensk-såld och har gått lite mer än 25000 mil. Fakta * Volvo V60 D3 * Årsmodell 2016 * 2.0 diesel – 150 hk * Geartronic automat * Svart * Kombi * 25 273 mil * Svensksåld * 5 sittplatser * Besiktigad till 2026-12...
-Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2016 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 150 Hk | Motorvolym: 2 L | Miltal: 25 273 mil
-Utrustning: Multifunktionsratt, ABS, Sidoairbags, El-sidospeglar m. värme, Antispinn, ESC, Takrails, Automatisk start/stopp, Bluetooth, Servostyrning ...
-[Öppna annons](https://www.blocket.se/mobility/item/25367194)
+### Volvo V60 – 94800 kr – Uppsala 🔗 DRAGKROK
+Modell: V60 | År: 2013 | 22860 mil | Automatisk | Diesel
+Regnr: PTP158 | Säljare: Företag
+> Vi erbjuder flexibla finansieringslösningar på samtliga bilar med en godkännandegrad på 96% – gå in på riddermarkbil.se eller ring oss för att få se din potentiella månadskostnad. Riddermark Bil har Sveriges NÖJDASTE kunder enligt Trustpilot *PTP158* *Vi tar emot alla inbyten och erbjuder hemleverans i hela Sverige!* Upplev en kombi där komfort, säkerhet och kvalitet står i centrum. Volvo V60 erbjuder stabila köregenskaper, en tyst och välisolerad kupé samt gott om plats för både passagerare och...
+Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2013 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 136 Hk | Motorvolym: 2 L | Miltal: 22 860 mil
+Utrustning: Momentum, Dieselvärmare, Dragkrok, fast, Parkeringssensor bak, Multifunktionsratt, AC och klimatanläggning, ACC/Klimatanläggning, Bluetooth, Fjärrstyrt centrallås, Avstängningsbar airbag ...
+[Öppna annons](https://www.blocket.se/mobility/item/25405349)
 
-## Övriga matchande annonser (64)
+### Volvo V60 – 59000 kr – Vallentuna
+Modell: V60 | År: 2015 | 32000 mil | Automatisk | Diesel
+Regnr: None | Säljare: Privat
+_(kunde inte hämta annonstext: The read operation timed out)_
+[Öppna annons](https://www.blocket.se/mobility/item/25400214)
+
+## Övriga matchande annonser (66)
 
 ### Volvo V60 – 40000 kr – Norrtälje 🔗 DRAGKROK
 Modell: V60 | År: 2011 | 40650 mil | Automatisk | Diesel
@@ -64,6 +71,14 @@ Regnr: CUU728 | Säljare: Privat
 Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2013 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 115 Hk | Motorvolym: 1,6 L | Miltal: 342 606 mil
 Utrustning: Multifunktionsratt, ABS, Sidoairbags, El-sidospeglar m. värme, Antispinn, ESC, Takrails, Automatisk start/stopp, Bluetooth, Servostyrning ...
 [Öppna annons](https://www.blocket.se/mobility/item/24316701)
+
+### Volvo V60 – 59900 kr – Märsta 🔗 DRAGKROK
+Modell: V60 | År: 2013 | 28500 mil | Automatisk | Diesel
+Regnr: NWD875 | Säljare: Privat
+_(ingen fritextbeskrivning hittades i annonsen)_
+Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2013 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 115 Hk | Motorvolym: 1,6 L | Miltal: 28 500 mil
+Utrustning: Multifunktionsratt, ABS, Sidoairbags, El-sidospeglar m. värme, Antispinn, ESC, Takrails, Automatisk start/stopp, Bluetooth, Servostyrning ...
+[Öppna annons](https://www.blocket.se/mobility/item/25371205)
 
 ### Volvo V60 – 59900 kr – Handen 🔗 DRAGKROK
 Modell: V60 | År: 2012 | 27100 mil | Manuell | Diesel
@@ -161,6 +176,15 @@ Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2015 | Biltyp: Kombi |
 Utrustning: 12V-uttag, Adaptiva strålkastare, Airbag fram, Aircondition, Antispinn, Automatisk start/stopp, AUX-ingång, Bluetooth, Centrallås, Elektriska fönster ...
 [Öppna annons](https://www.blocket.se/mobility/item/25119780)
 
+### Volvo V60 – 85000 kr – Uppsala 🔗 DRAGKROK
+Modell: V60 | År: 2016 | 29000 mil | Manuell | Diesel
+Regnr: HBA601 | Säljare: Privat
+⚠️ **Flaggade ord:** kamrem
+> En välutrustad Volvo V60 D4 Manuell från 2016. Med en kraftfull dieselmotor på 190 hk och låg bränsleförbrukning på endast 4 l/100km är detta ett ekonomiskt val. Bilen har en komplett servicebok, dragkrok, samt både sommar- och vinterdäck på alufälg. Den är i gott skick utan kända skador eller utförda reparationer, och besiktigad till 2027-02-28. Volvo On Call (Volvo Cars app) Låg årsskatt - 1103 kronor Senaste service 20260115 Nya bromsok, bromsskivor, klossar och bromsslang bak november 2025 B...
+Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2016 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 190 Hk | Motorvolym: 2 L | Miltal: 29 000 mil
+Utrustning: Sommardäck på alufälg, Vinterdäck på alufälg, 12V-uttag, Adaptiva strålkastare, Adaptiv farthållare, Airbag fram, Aircondition, Antispinn, Automatisk start/stopp, AUX-ingång ...
+[Öppna annons](https://www.blocket.se/mobility/item/23238456)
+
 ### Volvo V60 – 89000 kr – Norrtälje 🔗 DRAGKROK
 Modell: V60 | År: 2012 | 24000 mil | Automatisk | Diesel
 Regnr: LYL038 | Säljare: Privat
@@ -178,15 +202,6 @@ Regnr: CRA393 | Säljare: Företag
 Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2013 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 116 Hk | Motorvolym: 1,6 L | Miltal: 24 200 mil
 Utrustning: Volvo on call, ABS-bromsar, ACC, ACC 2 klimatzoner, Airbag förare, Airbag passagerare fram, Antisladd, Autobroms, AUX-ingång, Avbländande innerbackspegel ...
 [Öppna annons](https://www.blocket.se/mobility/item/23857485)
-
-### Volvo V60 – 90000 kr – Uppsala 🔗 DRAGKROK
-Modell: V60 | År: 2016 | 29000 mil | Manuell | Diesel
-Regnr: HBA601 | Säljare: Privat
-⚠️ **Flaggade ord:** kamrem
-> En välutrustad Volvo V60 D4 Manuell från 2016. Med en kraftfull dieselmotor på 190 hk och låg bränsleförbrukning på endast 4 l/100km är detta ett ekonomiskt val. Bilen har en komplett servicebok, dragkrok, samt både sommar- och vinterdäck på alufälg. Den är i gott skick utan kända skador eller utförda reparationer, och besiktigad till 2027-02-28. Volvo On Call (Volvo Cars app) Låg årsskatt - 1103 kronor Senaste service 20260115 Nya bromsok, bromsskivor, klossar och bromsslang bak november 2025 B...
-Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2016 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 190 Hk | Motorvolym: 2 L | Miltal: 29 000 mil
-Utrustning: Sommardäck på alufälg, Vinterdäck på alufälg, 12V-uttag, Adaptiva strålkastare, Adaptiv farthållare, Airbag fram, Aircondition, Antispinn, Automatisk start/stopp, AUX-ingång ...
-[Öppna annons](https://www.blocket.se/mobility/item/23238456)
 
 ### Volvo V60 – 94900 kr – Segeltorp 🔗 DRAGKROK
 Modell: V60 | År: 2014 | 25540 mil | Automatisk | Diesel
@@ -560,6 +575,14 @@ Regnr: WOF071 | Säljare: Företag
 Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2016 | Biltyp: Kombi | Drivmedel: Plug-in Diesel | Effekt: 288 Hk | Motorvolym: 2,4 L | Miltal: 29 600 mil
 Utrustning: 2 klimatzoner, ACC, Airbag förare, Airbag passagerare fram, Antisladd, Antispinn, Autobroms, Avstängningsbar airbag, Avåkningsvarnare, Backstartshjälp ...
 [Öppna annons](https://www.blocket.se/mobility/item/23939848)
+
+### Volvo V60 – 119900 kr – Södertälje
+Modell: V60 | År: 2016 | 25273 mil | Automatisk | Diesel
+Regnr: FYP197 | Säljare: Privat
+> Volvo V60 D3 Geartronic 150hk – 2016 – Svart – Automat 119 900 kr Säljer min svarta Volvo V60 D3 med den trevliga och bränslesnåla 2,0-liters dieselmotorn på 150 hk tillsammans med automatlåda. En bekväm och praktisk kombi som fungerar lika bra till vardags som på längre resor. Bilen är svensk-såld och har gått lite mer än 25000 mil. Fakta * Volvo V60 D3 * Årsmodell 2016 * 2.0 diesel – 150 hk * Geartronic automat * Svart * Kombi * 25 273 mil * Svensksåld * 5 sittplatser * Besiktigad till 2026-12...
+Specifikationer: Märke: Volvo | Modell: V60 | Modellår: 2016 | Biltyp: Kombi | Drivmedel: Diesel | Effekt: 150 Hk | Motorvolym: 2 L | Miltal: 25 273 mil
+Utrustning: Multifunktionsratt, ABS, Sidoairbags, El-sidospeglar m. värme, Antispinn, ESC, Takrails, Automatisk start/stopp, Bluetooth, Servostyrning ...
+[Öppna annons](https://www.blocket.se/mobility/item/25367194)
 
 ### Volvo V60 – 119900 kr – Sollentuna
 Modell: V60 | År: 2016 | 24990 mil | Automatisk | Diesel
