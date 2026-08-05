@@ -1,5 +1,5 @@
 # Volvo Car Retail - kombi-bevakning
-_Senast körd: 2026-08-04 09:40 UTC – 3 bilar (V60/V60CC/V70/V90/V90CC under 200 000 kr)_
+_Senast körd: 2026-08-05 09:39 UTC – 3 bilar (V60/V60CC/V70/V90/V90CC under 200 000 kr)_
 _📍 = Volvo Car Kungsängen specifikt (din närmaste anläggning)_
 
 _Inga nya bilar sedan senaste körning._
