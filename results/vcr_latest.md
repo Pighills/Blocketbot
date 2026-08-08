@@ -1,12 +1,8 @@
 # Volvo Car Retail - kombi-bevakning
-_Senast körd: 2026-08-07 08:17 UTC – 4 bilar (V60/V60CC/V70/V90/V90CC under 200 000 kr)_
+_Senast körd: 2026-08-08 07:52 UTC – 3 bilar (V60/V60CC/V70/V90/V90CC under 200 000 kr)_
 _📍 = Volvo Car Kungsängen specifikt (din närmaste anläggning)_
 
-## 🆕 Nya sedan senast (1)
-
-### Volvo V90 D3 – 134800 kr – Volvo Car Kungsängen 📍 KUNGSÄNGEN [Classic]
-D3 Business | År: 2017 | 19222 mil
-[Öppna annons](https://www.volvocarretail.se/bilar-i-lager/begagnade/volvo/v90/d3-pjg167)
+_Inga nya bilar sedan senaste körning._
 
 ## Övriga just nu (3)
 
